@@ -10,13 +10,19 @@ Tic Tac Toe is a two-player game where the objective is to align three of your s
 
 ## Installation
 
+#### TL;DR: 
+
+git clone https://github.com/roicort/PCIC/ && cd PCIC/TICTACTOE && docker compose up --build
+
+#### Manual Install
+
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your_username/PCIC/TICTACTOE.git
+    git clone https://github.com/roicort/PCIC/
     ```
 2. Navigate to the project directory:
     ```bash
-    cd TICTACTOE
+    PCIC/TICTACTOE
     ```
 3. (Optional) Create and activate a virtual environment:
     ```bash
