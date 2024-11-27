@@ -6,6 +6,7 @@ class Gato:
         self.board = np.zeros((3,3))
         self.HUMAN = np.random.choice([-1, 1])
         self.CPU = -self.HUMAN
+        self.debug = True
 
     def heuristic(self, state):
         if self.win(state, self.CPU):
@@ -64,6 +65,8 @@ class Gato:
             if player == self.CPU:
                 if score[2] > best[2]:
                     best = score
+                    if self.debug:
+                        print(f"Best CPU : {best}")
                     alpha = max(alpha, best[2])
                     if alpha >= beta:
                         break
