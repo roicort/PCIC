@@ -58,3 +58,7 @@ Contributions are welcome. Please follow these steps:
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Author
+
+This project was developed by [Rodrigo Cortez](https://github.com/roicort) for the Artificial Intelligence course @ [IIMAS](https://www.iimas.unam.mx/).
