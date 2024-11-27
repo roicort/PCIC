@@ -4,6 +4,8 @@
 
 This is a Tic Tac Toe game project developed in Python.
 
+![Tic Tac Toe](gaming.mov)
+
 ## Description
 
 Tic Tac Toe is a two-player game where the objective is to align three of your symbols (X or O) in a row, column, or diagonal on a 3x3 board.
