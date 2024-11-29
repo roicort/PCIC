@@ -1,5 +1,7 @@
 -- Examen 2 Haskell 2025-1
+
 import Prelude hiding (foldl', concat)
+import Text.Printf (printf)
 
 -- I. Considerando las siguientes definiciones de funciones:
 
@@ -58,16 +60,16 @@ main = do
     let lista = [81, 27, 9, 3]
     
     -- a) foldl (-) 1 [81, 27, 9, 3]
-    print $ foldl' (-) 1 lista
+    printf "foldl (-) 1 [81, 27, 9, 3] - Resultado: %s\n" (show (foldl' (-) 1 lista))
 
     -- b) foldr (-) 1 [81, 27, 9, 3]
-    print $ foldr' (-) 1 lista
+    printf "foldr (-) 1 [81, 27, 9, 3] - Resultado: %s\n" (show (foldr' (-) 1 lista))
 
     -- c) foldr (/) 1 [81, 27, 9, 3]
-    print $ foldr' (/) 1 lista
+    printf "foldr (/) 1 [81, 27, 9, 3] - Resultado: %s\n" (show (foldr' (/) 1 lista))
 
     -- d) foldl (/) 81 [9, 3, 3, 1]
-    print $ foldl' (/) 81 [9, 3, 3, 1]
+    printf "foldl (/) 81 [9, 3, 3, 1] - Resultado: %s\n" (show (foldl' (/) 81 [9, 3, 3, 1]))
 
     -- Ejercicio II
 
@@ -76,10 +78,10 @@ main = do
     putStrLn ""
 
     -- a) todosImpares [1, 3, 5]
-    print $ todosImpares [1, 3, 5]
+    printf "todosImpares [1, 3, 5]: %s\n" (show $ todosImpares2 [1, 3, 5])
 
     -- b) todosImpares [1, 3, 5, 6]
-    print $ todosImpares [1, 3, 5, 6]
+    printf "todosImpares [1, 3, 5, 6]: %s\n" (show $ todosImpares2 [1, 3, 5, 6])
 
     -- Ejericio III
 
@@ -88,17 +90,18 @@ main = do
     putStrLn ""
 
     putStrLn "Primera expresión: Eq a => a -> a -> Bool"
-    print $ esIgual 3 3         -- True: 3 es igual a 3
-    print $ esIgual 3 4         -- False: 3 no es igual a 4
-    print $ esIgual "hola" "hola" -- True: las cadenas son iguales
-    print $ esIgual "hola" "mundo" -- False: las cadenas son diferentes
+    printf "esIgual 3 3: %s\n" (show $ esIgual 3 3)         -- True: 3 es igual a 3
+    printf "esIgual 3 4: %s\n" (show $ esIgual 3 4)         -- False: 3 no es igual a 4
+    printf "esIgual \"hola\" \"hola\": %s\n" (show $ esIgual "hola" "hola") -- True: las cadenas son iguales
+    printf "esIgual \"hola\" \"mundo\": %s\n" (show $ esIgual "hola" "mundo") -- False: las cadenas son diferentes
 
     -- Ejemplo 2: Segunda expresión (Eq a => a -> [a] -> Bool)
+
     putStrLn "\nSegunda expresión: Eq a => a -> [a] -> Bool"
-    print $ esElemento 3 [1, 2, 3, 4]       -- True: 3 está en la lista
-    print $ esElemento 5 [1, 2, 3, 4]       -- False: 5 no está en la lista
-    print $ esElemento 'a' "hola mundo"     -- True: 'a' está en la cadena
-    print $ esElemento 'z' "hola mundo"     -- False: 'z' no está en la cadena
+    printf "esElemento 3 [1, 2, 3, 4]: %s\n" (show $ esElemento 3 [1, 2, 3, 4])       -- True: 3 está en la lista
+    printf "esElemento 5 [1, 2, 3, 4]: %s\n" (show $ esElemento 5 [1, 2, 3, 4])       -- False: 5 no está en la lista
+    printf "esElemento 'a' \"hola mundo\": %s\n" (show $ esElemento 'a' "hola mundo") -- True: 'a' está en la cadena
+    printf "esElemento 'z' \"hola mundo\": %s\n" (show $ esElemento 'z' "hola mundo") -- False: 'z' no está en la cadena
 
     -- Ejercicio IV
 
@@ -108,8 +111,9 @@ main = do
 
     let listas = [[1, 2, 3], [4, 5, 6], [7, 8]]
 
-    print $ concat listas       -- Resultado: [1,2,3,4,5,6,7,8]
-    print $ concatFoldr listas  -- Resultado: [1,2,3,4,5,6,7,8]
+    printf "concat listas [[1, 2, 3], [4, 5, 6], [7, 8]]: %s\n" $ show $ concat listas  -- Resultado: [1,2,3,4,5,6,7,8]
+    printf "concatFoldr listas [[1, 2, 3], [4, 5, 6], [7, 8]]: %s\n" $ show $ concatFoldr listas  -- Resultado: [1,2,3,4,5,6,7,8]
+    
 
     -- Ejercicio V
 
@@ -121,4 +125,8 @@ main = do
     let g = (*2)
     let h = f . g  -- h(x) = f(g(x)) = (x * 2) + 1
 
-    print $ h 3 -- Resultado: 7
+    putStrLn "f(x) = x + 1"
+    putStrLn "g(x) = x * 2"
+    putStrLn "h(x) = f(g(x)) = (x * 2) + 1"
+    printf "h 3: %s\n" $ show $ h 3  -- Resultado: 7
+    putStrLn ""

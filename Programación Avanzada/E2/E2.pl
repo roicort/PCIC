@@ -1,3 +1,4 @@
+%%% E2.pl %%%
 
 %%%% VII
 
@@ -59,7 +60,7 @@ edad_categoria(_, mayor).
 main :- 
 
     % VII
-    writeln('VII. Hechos y reglas dinámicos'),
+    nl,writeln('VII. Hechos y reglas dinámicos'),nl,
     % Socrates es un hombre.
     agregar_hecho(hombre(socrates)),
     % Todos los hombres son mortales.
@@ -83,7 +84,7 @@ main :-
 
     % IX
 
-    writeln('IX. Prefijo'),
+    nl,writeln('IX. Prefijo'),nl,
     % Consultar si [1,2] es prefijo de [1,2,3,4].
     (prefijo([1,2], [1,2,3,4]) -> writeln('[1,2] es prefijo de [1,2,3,4]'); writeln('[1,2] no es prefijo de [1,2,3,4]')),
     % Consultar si [1,2] es prefijo de [1,3,4].
@@ -91,8 +92,7 @@ main :-
 
     % X
 
-    writeln('X. Corte'),
-
+    nl,writeln('X. Corte'),nl,
     % Consultar el máximo entre 5 y 10.
     maximo(5, 10, Maximo),
     write('El máximo entre 5 y 10 es: '), writeln(Maximo),
@@ -116,5 +116,6 @@ main :-
     % Consultar la categoría de edad de 65 años.
     edad_categoria(65, Categoria3),
     write('La categoría de edad de 65 años es: '), writeln(Categoria3),
+    nl,
 
     halt.
