@@ -1,0 +1,65 @@
+[
+class(top, none, [], [], []),
+
+class(animales, top, 
+     [], 
+     [], 
+     [
+          [id=>eslabonperdido,[],[]]
+     ]
+     ),
+
+class(plantas, top, [], [], []),
+
+class(orchidaceae, plantas, 
+     [], 
+     [not(bailan),0], 
+     []
+     ),
+
+class(rosas, plantas, [], [], []),
+
+class(aves, animales, 
+     [[vuelan,0],[not(nadan),0]], 
+     [], 
+     []
+     ),
+
+class(peces, animales, 
+     [[nadan,0],[not(bailan),0]], 
+     [], 
+     [
+          [id=>nemo,[],[]]
+     ]
+     ),
+
+class(mamiferos, animales, 
+     [[not(oviparos),0]], 
+     [], 
+     []
+     ),
+
+class(aguilas, aves, 
+     [], 
+     [[comen=>peces,0]], 
+     [
+          [id=>pedro,[[tam=>grande,0]],[[not(amigo=>arturo),0]]]
+     ]
+     ),
+
+class(pinguino, aves, 
+     [[not(vuelan),0],[nadan,0]], 
+     [], 
+     [
+          [id=>arturo,[[listo,0]],[[amigo=>pedro,0]]]
+     ]
+     ),
+
+class(ornitorrincos, mamiferos, 
+     [[oviparos,0]], 
+     [], 
+     [
+          [id=>perry,[[agente=>7,0]],[]]
+     ]
+     )
+]
