@@ -14,7 +14,9 @@ Tic Tac Toe is a two-player game where the objective is to align three of your s
 
 #### TL;DR: 
 
+```bash
 git clone https://github.com/roicort/PCIC/ && cd PCIC/TICTACTOE && docker compose up --build
+```
 
 #### Manual Install
 
