@@ -30,6 +30,7 @@ v(ve) --> [ve].
 
 parse_sentence(Sentence) :-
     oracion(Tree, Sentence, []),
+    % Podemos verficar si es válida
     write(Tree), nl.
 
 main :-
