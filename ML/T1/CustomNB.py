@@ -40,6 +40,9 @@ class GaussianNaiveBayes:
             self.MAP(X, y)
         else:
             raise ValueError('Invalid method')
+        
+        # Laplace smoothing for prior probabilities
+        self.prior = (self.prior + 1) / (np.sum(self.prior) + len(self.prior))
 
     def predict(self, X):
         """
@@ -49,7 +52,17 @@ class GaussianNaiveBayes:
         n, d = X.shape # Obtiene el número de instancias y características
         y_pred = np.zeros(n) # Inicializa el arreglo de predicciones
         for i in range(n): # Itera sobre las instancias
-            prob = self.prior * np.prod(
-                np.exp(-0.5 * (X[i] - self.mean) ** 2 / self.var) / np.sqrt(2 * np.pi * self.var), axis=1) # Calcula la probabilidad de cada clase
-            y_pred[i] = np.argmax(prob) # Asigna la clase con mayor probabilidad
+            #print(f"Instance {i}: {X[i]}")
+            #print(f"Prior probabilities: {self.prior}")
+            #print(f"Mean of each class: {self.mean}")
+            #print(f"Variance of each class: {self.var}")
+            
+            # Calcula la probabilidad de cada clase utilizando logaritmos
+            log_likelihood = -0.5 * np.sum(np.log(2 * np.pi * self.var) + ((X[i] - self.mean) ** 2 / self.var), axis=1)
+            #print(f"Log-likelihood for instance {i}: {log_likelihood}")
+            
+            log_prob = np.log(self.prior) + log_likelihood  # Suma el logaritmo de la probabilidad a priori y la log-verosimilitud
+            #print(f"Log-posterior probabilities for instance {i}: {log_prob}")
+            
+            y_pred[i] = np.argmax(log_prob) # Asigna la clase con mayor probabilidad
         return y_pred # Regresa las predicciones
