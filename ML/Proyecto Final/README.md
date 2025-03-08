@@ -32,11 +32,14 @@ En el caso de los glaciares, se puede obtener una serie de tiempo sobre de la ve
 
 ### Objetivos
 
-El objetivo de este proyecto es desarrollar un sistema basado en aprendizaje automático que pueda predecir el flujo de hielo en los glaciares. Para ello, se utilizará una serie de tiempo elaborada a partir de datos de satélite y de sensores instalados en los glaciares del proyecto ITS_LIVE de la NASA.
+Desarrollar e implementar un modelo de análisis y predicción de series de tiempo (climatológicas o financieras) que nos permita comprender el fenómeno y obtener valores futuros con precisión para así tomar decisiones fundamentas.
 
 ### Justificación
 
-El derretimiento de los glaciares es un problema que afecta a todo el planeta y que tiene consecuencias graves para la humanidad. Por lo tanto, es importante poder predecir el flujo de hielo en los glaciares para poder tomar medidas preventivas y mitigar los efectos del cambio climático.
+Construir un modelo para realizar análisis y predicciones de valores futuros de series de tiempo se ha vuelto un tema muy importante debido a la necesidad de tomar decisiones y acciones para obtener el mayor beneficio de la situación (ya sea minimizar riesgos en la toma de decisiones, minimizar costos o maximizar ganancias). 
+Por otro lado la necesidad de continuar haciendo avances y aportaciones a la realización de las tareas relacionadas a series de tiempo  impulsa a probar nuevas técnicas y herramientas para obtener predicciones más precisas y confiables.
+
+Adicionalmente, el derretimiento de los glaciares es un problema que afecta a todo el planeta y que tiene consecuencias graves para la humanidad. Por lo tanto, es importante poder predecir el flujo de hielo en los glaciares para poder tomar medidas preventivas y mitigar los efectos del cambio climático.
 
 ### Conjunto de datos a utilizar
 
