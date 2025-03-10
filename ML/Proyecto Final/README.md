@@ -1,5 +1,7 @@
 # Proyecto Final de ML
 
+<img src="https://pcic.posgrado.unam.mx/wp-content/uploads/Ciencia-e-Ingenieria-de-la-Computacion_color.png" alt="Logo PCIC" width="128" />  
+
 ## Requerimientos
 
 El proyecto final consistirá en proponer un problema relevante y diseñar, desarrollar y evaluar un sistema basado en aprendizaje automático para resolver dicho problema. Los proyectos pueden ser realizados de forma individual o en equipo de 2 personas.

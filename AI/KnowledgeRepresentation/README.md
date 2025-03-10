@@ -1,5 +1,7 @@
 # Knowledge Representation in Prolog
 
+<img src="https://pcic.posgrado.unam.mx/wp-content/uploads/Ciencia-e-Ingenieria-de-la-Computacion_color.png" alt="Logo PCIC" width="128" />  
+
 Author: Rodrigo S. Cortez Madrigal
 
 This project provides a Prolog-based knowledge base management system. It allows for the representation, querying, addition, modification, and deletion of classes, objects, properties, and relations within a hierarchical structure.
