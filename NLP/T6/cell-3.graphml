@@ -1,0 +1,3612 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="cell"/>
+<node id="political_entity"/>
+<node id="radiotelephone"/>
+<node id="living_thing"/>
+<node id="room"/>
+<node id="wireless_telephone"/>
+<node id="political_unit"/>
+<node id="electrical_device"/>
+<node id="animate_thing"/>
+<node id="radiophone"/>
+<node id="compartment"/>
+<node id="unit"/>
+<node id="social_unit"/>
+<node id="wireless"/>
+<node id="telephone"/>
+<node id="phone"/>
+<node id="telephone_set"/>
+<node id="whole"/>
+<node id="area"/>
+<node id="position"/>
+<node id="spatial_relation"/>
+<node id="opportunity"/>
+<node id="chance"/>
+<node id="gathering"/>
+<node id="assemblage"/>
+<node id="populate"/>
+<node id="dwell"/>
+<node id="live"/>
+<node id="inhabit"/>
+<node id="device"/>
+<node id="space"/>
+<node id="definite_quantity"/>
+<node id="part"/>
+<node id="portion"/>
+<node id="component_part"/>
+<node id="component"/>
+<node id="constituent"/>
+<node id="organization"/>
+<node id="organisation"/>
+<node id="thing"/>
+<node id="object"/>
+<node id="physical_object"/>
+<node id="broadcasting"/>
+<node id="telecommunication"/>
+<node id="telecom"/>
+<node id="receiver"/>
+<node id="receiving_system"/>
+<node id="communication_system"/>
+<node id="electronic_equipment"/>
+<node id="telecommunicate"/>
+<node id="language_unit"/>
+<node id="linguistic_unit"/>
+<node id="electro-acoustic_transducer"/>
+<node id="concept"/>
+<node id="conception"/>
+<node id="construct"/>
+<node id="region"/>
+<node id="topic"/>
+<node id="subject"/>
+<node id="issue"/>
+<node id="matter"/>
+<node id="body_part"/>
+<node id="environment"/>
+<node id="structure"/>
+<node id="construction"/>
+<node id="extent"/>
+<node id="point"/>
+<node id="orientation"/>
+<node id="bodily_property"/>
+<node id="state"/>
+<node id="occupation"/>
+<node id="business"/>
+<node id="job"/>
+<node id="line_of_work"/>
+<node id="line"/>
+<node id="relation"/>
+<node id="role"/>
+<node id="activity"/>
+<node id="condition"/>
+<node id="status"/>
+<node id="attitude"/>
+<node id="mental_attitude"/>
+<node id="opinion"/>
+<node id="view"/>
+<node id="item"/>
+<node id="function"/>
+<node id="office"/>
+<node id="assumption"/>
+<node id="put"/>
+<node id="set"/>
+<node id="place"/>
+<node id="pose"/>
+<node id="lay"/>
+<node id="move"/>
+<node id="displace"/>
+<node id="possibility"/>
+<node id="possibleness"/>
+<node id="phenomenon"/>
+<node id="risk"/>
+<node id="peril"/>
+<node id="danger"/>
+<node id="measure"/>
+<node id="quantity"/>
+<node id="amount"/>
+<node id="potential"/>
+<node id="potentiality"/>
+<node id="potency"/>
+<node id="happen"/>
+<node id="hap"/>
+<node id="go_on"/>
+<node id="pass_off"/>
+<node id="occur"/>
+<node id="pass"/>
+<node id="fall_out"/>
+<node id="come_about"/>
+<node id="take_place"/>
+<node id="try"/>
+<node id="seek"/>
+<node id="attempt"/>
+<node id="essay"/>
+<node id="assay"/>
+<node id="social_group"/>
+<node id="group_action"/>
+<node id="collection"/>
+<node id="collecting"/>
+<node id="assembling"/>
+<node id="aggregation"/>
+<node id="sewing"/>
+<node id="stitchery"/>
+<node id="interact"/>
+<node id="increase"/>
+<node id="reason"/>
+<node id="reason_out"/>
+<node id="conclude"/>
+<node id="sew"/>
+<node id="run_up"/>
+<node id="sew_together"/>
+<node id="stitch"/>
+<node id="pull"/>
+<node id="search"/>
+<node id="look_for"/>
+<node id="system"/>
+<node id="group"/>
+<node id="grouping"/>
+<node id="be"/>
+<node id="fill"/>
+<node id="fill_up"/>
+<node id="make_full"/>
+<node id="worry"/>
+<node id="care"/>
+<node id="exist"/>
+<node id="repeat"/>
+<node id="reiterate"/>
+<node id="ingeminate"/>
+<node id="iterate"/>
+<node id="restate"/>
+<node id="retell"/>
+<node id="experience"/>
+<node id="see"/>
+<node id="go_through"/>
+<node id="instrumentality"/>
+<node id="instrumentation"/>
+<node id="expressive_style"/>
+<node id="style"/>
+<node id="maneuver"/>
+<node id="manoeuvre"/>
+<node id="tactical_maneuver"/>
+<node id="tactical_manoeuvre"/>
+<node id="design"/>
+<node id="pattern"/>
+<node id="figure"/>
+<node id="emblem"/>
+<node id="attribute"/>
+<node id="location"/>
+<node id="amorphous_shape"/>
+<node id="country"/>
+<node id="infinite"/>
+<node id="character"/>
+<node id="grapheme"/>
+<node id="graphic_symbol"/>
+<node id="time_interval"/>
+<node id="interval"/>
+<node id="expanse"/>
+<node id="surface_area"/>
+<node id="type"/>
+<node id="concern"/>
+<node id="duty"/>
+<node id="portrayal"/>
+<node id="characterization"/>
+<node id="enactment"/>
+<node id="personation"/>
+<node id="assets"/>
+<node id="tune"/>
+<node id="melody"/>
+<node id="air"/>
+<node id="strain"/>
+<node id="melodic_line"/>
+<node id="melodic_phrase"/>
+<node id="effort"/>
+<node id="endeavor"/>
+<node id="endeavour"/>
+<node id="leave"/>
+<node id="go_forth"/>
+<node id="go_away"/>
+<node id="change"/>
+<node id="allotment"/>
+<node id="apportionment"/>
+<node id="apportioning"/>
+<node id="allocation"/>
+<node id="parceling"/>
+<node id="parcelling"/>
+<node id="assignation"/>
+<node id="gift"/>
+<node id="small_indefinite_quantity"/>
+<node id="small_indefinite_amount"/>
+<node id="distribute"/>
+<node id="administer"/>
+<node id="mete_out"/>
+<node id="deal"/>
+<node id="parcel_out"/>
+<node id="lot"/>
+<node id="dispense"/>
+<node id="shell_out"/>
+<node id="deal_out"/>
+<node id="dish_out"/>
+<node id="allot"/>
+<node id="dole_out"/>
+<node id="section"/>
+<node id="division"/>
+<node id="voter"/>
+<node id="elector"/>
+<node id="syntagma"/>
+<node id="syntagm"/>
+<node id="body"/>
+<node id="administration"/>
+<node id="disposal"/>
+<node id="orderliness"/>
+<node id="methodicalness"/>
+<node id="beginning"/>
+<node id="start"/>
+<node id="commencement"/>
+<node id="situation"/>
+<node id="state_of_affairs"/>
+<node id="action"/>
+<node id="abstraction"/>
+<node id="abstract"/>
+<node id="artifact"/>
+<node id="artefact"/>
+<node id="happening"/>
+<node id="occurrence"/>
+<node id="occurrent"/>
+<node id="natural_event"/>
+<node id="statement"/>
+<node id="entity"/>
+<node id="aim"/>
+<node id="objective"/>
+<node id="target"/>
+<node id="feeling"/>
+<node id="physical_entity"/>
+<node id="goal"/>
+<node id="end"/>
+<node id="grammatical_constituent"/>
+<node id="content"/>
+<node id="cognitive_content"/>
+<node id="mental_object"/>
+<node id="computer_science"/>
+<node id="computing"/>
+<node id="disapprove"/>
+<node id="reject"/>
+<node id="medium"/>
+<node id="mass_medium"/>
+<node id="publicize"/>
+<node id="publicise"/>
+<node id="bare"/>
+<node id="sow"/>
+<node id="seed"/>
+<node id="electrical_engineering"/>
+<node id="EE"/>
+<node id="fiduciary"/>
+<node id="earphone"/>
+<node id="earpiece"/>
+<node id="headphone"/>
+<node id="acquirer"/>
+<node id="tennis_player"/>
+<node id="football_player"/>
+<node id="footballer"/>
+<node id="facility"/>
+<node id="installation"/>
+<node id="equipment"/>
+<node id="communicate"/>
+<node id="intercommunicate"/>
+<node id="transducer"/>
+<node id="idea"/>
+<node id="thought"/>
+<node id="sexual_activity"/>
+<node id="sexual_practice"/>
+<node id="sex"/>
+<node id="sex_activity"/>
+<node id="creativity"/>
+<node id="creativeness"/>
+<node id="creative_thinking"/>
+<node id="make"/>
+<node id="create"/>
+<node id="trace"/>
+<node id="draw"/>
+<node id="describe"/>
+<node id="delineate"/>
+<node id="create_by_mental_act"/>
+<node id="create_mentally"/>
+<node id="speculate"/>
+<node id="theorize"/>
+<node id="theorise"/>
+<node id="conjecture"/>
+<node id="hypothesize"/>
+<node id="hypothesise"/>
+<node id="hypothecate"/>
+<node id="suppose"/>
+<node id="indefinite_quantity"/>
+<node id="knowledge_domain"/>
+<node id="knowledge_base"/>
+<node id="domain"/>
+<node id="message"/>
+<node id="subject_matter"/>
+<node id="substance"/>
+<node id="person"/>
+<node id="individual"/>
+<node id="someone"/>
+<node id="somebody"/>
+<node id="mortal"/>
+<node id="soul"/>
+<node id="term"/>
+<node id="affect"/>
+<node id="impact"/>
+<node id="bear_upon"/>
+<node id="bear_on"/>
+<node id="touch_on"/>
+<node id="touch"/>
+<node id="submit"/>
+<node id="dominate"/>
+<node id="master"/>
+<node id="refer"/>
+<node id="periodical"/>
+<node id="provision"/>
+<node id="supply"/>
+<node id="supplying"/>
+<node id="store"/>
+<node id="stock"/>
+<node id="fund"/>
+<node id="income"/>
+<node id="relative"/>
+<node id="opening"/>
+<node id="printing"/>
+<node id="write"/>
+<node id="trouble"/>
+<node id="problem"/>
+<node id="consequence"/>
+<node id="import"/>
+<node id="moment"/>
+<node id="writing"/>
+<node id="written_material"/>
+<node id="piece_of_writing"/>
+<node id="piece"/>
+<node id="geographical_area"/>
+<node id="geographic_area"/>
+<node id="geographical_region"/>
+<node id="geographic_region"/>
+<node id="constitution"/>
+<node id="composition"/>
+<node id="physical_composition"/>
+<node id="makeup"/>
+<node id="make-up"/>
+<node id="cognition"/>
+<node id="knowledge"/>
+<node id="noesis"/>
+<node id="scheme"/>
+<node id="organize"/>
+<node id="organise"/>
+<node id="coordinate"/>
+<node id="creating_from_raw_materials"/>
+<node id="thinking"/>
+<node id="thought_process"/>
+<node id="cerebration"/>
+<node id="intellection"/>
+<node id="mentation"/>
+<node id="mathematical_process"/>
+<node id="mathematical_operation"/>
+<node id="operation"/>
+<node id="interpretation"/>
+<node id="commercial_enterprise"/>
+<node id="business_enterprise"/>
+<node id="degree"/>
+<node id="level"/>
+<node id="stage"/>
+<node id="magnitude"/>
+<node id="element"/>
+<node id="factor"/>
+<node id="ingredient"/>
+<node id="meaning"/>
+<node id="significance"/>
+<node id="signification"/>
+<node id="fact"/>
+<node id="convex_shape"/>
+<node id="convexity"/>
+<node id="disk"/>
+<node id="disc"/>
+<node id="saucer"/>
+<node id="unit_of_measurement"/>
+<node id="promontory"/>
+<node id="headland"/>
+<node id="head"/>
+<node id="foreland"/>
+<node id="relevance"/>
+<node id="relevancy"/>
+<node id="characteristic"/>
+<node id="terminal"/>
+<node id="direction"/>
+<node id="linear_unit"/>
+<node id="linear_measure"/>
+<node id="loan"/>
+<node id="punctuation"/>
+<node id="punctuation_mark"/>
+<node id="mark"/>
+<node id="mathematical_notation"/>
+<node id="taper"/>
+<node id="gun_muzzle"/>
+<node id="muzzle"/>
+<node id="wall_socket"/>
+<node id="wall_plug"/>
+<node id="electric_outlet"/>
+<node id="electrical_outlet"/>
+<node id="outlet"/>
+<node id="electric_receptacle"/>
+<node id="contact"/>
+<node id="tangency"/>
+<node id="inform"/>
+<node id="lie"/>
+<node id="take"/>
+<node id="train"/>
+<node id="take_aim"/>
+<node id="direct"/>
+<node id="control"/>
+<node id="command"/>
+<node id="tell"/>
+<node id="sail"/>
+<node id="tag"/>
+<node id="label"/>
+<node id="indicate"/>
+<node id="designate"/>
+<node id="show"/>
+<node id="change_shape"/>
+<node id="change_form"/>
+<node id="deform"/>
+<node id="repair"/>
+<node id="mend"/>
+<node id="fix"/>
+<node id="bushel"/>
+<node id="doctor"/>
+<node id="furbish_up"/>
+<node id="restore"/>
+<node id="placement"/>
+<node id="locating"/>
+<node id="positioning"/>
+<node id="emplacement"/>
+<node id="predisposition"/>
+<node id="self-awareness"/>
+<node id="course"/>
+<node id="course_of_study"/>
+<node id="course_of_instruction"/>
+<node id="class"/>
+<node id="property"/>
+<node id="administrative_district"/>
+<node id="administrative_division"/>
+<node id="territorial_division"/>
+<node id="government"/>
+<node id="authorities"/>
+<node id="regime"/>
+<node id="chemical_phenomenon"/>
+<node id="emotional_state"/>
+<node id="spirit"/>
+<node id="executive_department"/>
+<node id="express"/>
+<node id="verbalize"/>
+<node id="verbalise"/>
+<node id="utter"/>
+<node id="give_tongue_to"/>
+<node id="propose"/>
+<node id="suggest"/>
+<node id="advise"/>
+<node id="denote"/>
+<node id="social_control"/>
+<node id="acquiring"/>
+<node id="getting"/>
+<node id="time_period"/>
+<node id="period_of_time"/>
+<node id="period"/>
+<node id="enterprise"/>
+<node id="commerce"/>
+<node id="commercialism"/>
+<node id="mercantilism"/>
+<node id="headache"/>
+<node id="vexation"/>
+<node id="business_activity"/>
+<node id="commercial_activity"/>
+<node id="sector"/>
+<node id="people"/>
+<node id="acting"/>
+<node id="playing"/>
+<node id="playacting"/>
+<node id="performing"/>
+<node id="workplace"/>
+<node id="work"/>
+<node id="product"/>
+<node id="production"/>
+<node id="responsibility"/>
+<node id="obligation"/>
+<node id="difficulty"/>
+<node id="unfortunate"/>
+<node id="unfortunate_person"/>
+<node id="application"/>
+<node id="application_program"/>
+<node id="applications_programme"/>
+<node id="robbery"/>
+<node id="cheat"/>
+<node id="chisel"/>
+<node id="hire"/>
+<node id="engage"/>
+<node id="employ"/>
+<node id="do_work"/>
+<node id="invest"/>
+<node id="commit"/>
+<node id="formation"/>
+<node id="print"/>
+<node id="shape"/>
+<node id="form"/>
+<node id="text"/>
+<node id="textual_matter"/>
+<node id="electromagnetic_radiation"/>
+<node id="electromagnetic_wave"/>
+<node id="nonparticulate_radiation"/>
+<node id="military_position"/>
+<node id="reasoning"/>
+<node id="logical_thinking"/>
+<node id="abstract_thought"/>
+<node id="conductor"/>
+<node id="series"/>
+<node id="depression"/>
+<node id="impression"/>
+<node id="imprint"/>
+<node id="pipe"/>
+<node id="pipage"/>
+<node id="piping"/>
+<node id="road"/>
+<node id="route"/>
+<node id="connection"/>
+<node id="connexion"/>
+<node id="connector"/>
+<node id="connecter"/>
+<node id="connective"/>
+<node id="conformity"/>
+<node id="conformation"/>
+<node id="compliance"/>
+<node id="abidance"/>
+<node id="genealogy"/>
+<node id="family_tree"/>
+<node id="communication"/>
+<node id="communicating"/>
+<node id="merchandise"/>
+<node id="ware"/>
+<node id="carrier"/>
+<node id="common_carrier"/>
+<node id="area_unit"/>
+<node id="square_measure"/>
+<node id="credit"/>
+<node id="music"/>
+<node id="persuasion"/>
+<node id="suasion"/>
+<node id="personal_letter"/>
+<node id="differentiation"/>
+<node id="distinction"/>
+<node id="mechanical_system"/>
+<node id="cover"/>
+<node id="score"/>
+<node id="nock"/>
+<node id="reinforce"/>
+<node id="reenforce"/>
+<node id="abstract_entity"/>
+<node id="narration"/>
+<node id="recital"/>
+<node id="yarn"/>
+<node id="legal_principle"/>
+<node id="judicial_principle"/>
+<node id="judicial_doctrine"/>
+<node id="dealings"/>
+<node id="traffic"/>
+<node id="utility"/>
+<node id="usefulness"/>
+<node id="act"/>
+<node id="deed"/>
+<node id="human_action"/>
+<node id="human_activity"/>
+<node id="organic_process"/>
+<node id="biological_process"/>
+<node id="capability"/>
+<node id="capacity"/>
+<node id="process"/>
+<node id="physical_process"/>
+<node id="trait"/>
+<node id="premise"/>
+<node id="premiss"/>
+<node id="information"/>
+<node id="good_health"/>
+<node id="healthiness"/>
+<node id="illness"/>
+<node id="unwellness"/>
+<node id="malady"/>
+<node id="sickness"/>
+<node id="procedure"/>
+<node id="teach"/>
+<node id="learn"/>
+<node id="instruct"/>
+<node id="develop"/>
+<node id="make_grow"/>
+<node id="contract"/>
+<node id="undertake"/>
+<node id="better"/>
+<node id="improve"/>
+<node id="amend"/>
+<node id="ameliorate"/>
+<node id="meliorate"/>
+<node id="shampoo"/>
+<node id="affectation"/>
+<node id="mannerism"/>
+<node id="affectedness"/>
+<node id="belief"/>
+<node id="legal_document"/>
+<node id="legal_instrument"/>
+<node id="official_document"/>
+<node id="instrument"/>
+<node id="judgment"/>
+<node id="judgement"/>
+<node id="judicial_decision"/>
+<node id="visual_percept"/>
+<node id="visual_image"/>
+<node id="look"/>
+<node id="looking"/>
+<node id="looking_at"/>
+<node id="range"/>
+<node id="reach"/>
+<node id="purpose"/>
+<node id="intent"/>
+<node id="intention"/>
+<node id="graphic_art"/>
+<node id="scope"/>
+<node id="orbit"/>
+<node id="compass"/>
+<node id="ambit"/>
+<node id="appearance"/>
+<node id="visual_aspect"/>
+<node id="think"/>
+<node id="believe"/>
+<node id="consider"/>
+<node id="conceive"/>
+<node id="analyze"/>
+<node id="analyse"/>
+<node id="study"/>
+<node id="examine"/>
+<node id="canvass"/>
+<node id="canvas"/>
+<node id="watch"/>
+<node id="symbol"/>
+<node id="mathematical_relation"/>
+<node id="social_gathering"/>
+<node id="social_affair"/>
+<node id="social_event"/>
+<node id="software"/>
+<node id="software_program"/>
+<node id="computer_software"/>
+<node id="software_system"/>
+<node id="software_package"/>
+<node id="package"/>
+<node id="suffice"/>
+<node id="do"/>
+<node id="answer"/>
+<node id="serve"/>
+<node id="place_of_business"/>
+<node id="business_establishment"/>
+<node id="administrative_unit"/>
+<node id="administrative_body"/>
+<node id="staff"/>
+<node id="rite"/>
+<node id="religious_rite"/>
+<node id="postulate"/>
+<node id="posit"/>
+<node id="hypothesis"/>
+<node id="theory"/>
+<node id="acquisition"/>
+<node id="holy_day_of_obligation"/>
+<node id="miracle"/>
+<node id="audacity"/>
+<node id="audaciousness"/>
+<node id="option"/>
+<node id="alter"/>
+<node id="modify"/>
+<node id="give_voice"/>
+<node id="formulate"/>
+<node id="word"/>
+<node id="phrase"/>
+<node id="articulate"/>
+<node id="use"/>
+<node id="utilize"/>
+<node id="utilise"/>
+<node id="apply"/>
+<node id="spend"/>
+<node id="expend"/>
+<node id="drop"/>
+<node id="estimate"/>
+<node id="gauge"/>
+<node id="approximate"/>
+<node id="guess"/>
+<node id="judge"/>
+<node id="arrange"/>
+<node id="accumulation"/>
+<node id="exercise"/>
+<node id="exercising"/>
+<node id="physical_exercise"/>
+<node id="physical_exertion"/>
+<node id="workout"/>
+<node id="representation"/>
+<node id="inclination"/>
+<node id="disposition"/>
+<node id="tendency"/>
+<node id="playing_period"/>
+<node id="period_of_play"/>
+<node id="play"/>
+<node id="natural_process"/>
+<node id="natural_action"/>
+<node id="descent"/>
+<node id="cognitive_state"/>
+<node id="state_of_mind"/>
+<node id="choose"/>
+<node id="select"/>
+<node id="pick_out"/>
+<node id="lay_down"/>
+<node id="establish"/>
+<node id="set_up"/>
+<node id="adjust"/>
+<node id="correct"/>
+<node id="present"/>
+<node id="represent"/>
+<node id="descend"/>
+<node id="fall"/>
+<node id="go_down"/>
+<node id="come_down"/>
+<node id="compose"/>
+<node id="originate"/>
+<node id="initiate"/>
+<node id="solidify"/>
+<node id="impress"/>
+<node id="bury"/>
+<node id="sink"/>
+<node id="hone"/>
+<node id="assail"/>
+<node id="assault"/>
+<node id="set_on"/>
+<node id="attack"/>
+<node id="equip"/>
+<node id="fit"/>
+<node id="fit_out"/>
+<node id="outfit"/>
+<node id="prepare"/>
+<node id="ready"/>
+<node id="gear_up"/>
+<node id="reproduce"/>
+<node id="procreate"/>
+<node id="multiply"/>
+<node id="groom"/>
+<node id="neaten"/>
+<node id="vicinity"/>
+<node id="locality"/>
+<node id="neighborhood"/>
+<node id="neighbourhood"/>
+<node id="neck_of_the_woods"/>
+<node id="residence"/>
+<node id="abode"/>
+<node id="social_station"/>
+<node id="social_status"/>
+<node id="social_rank"/>
+<node id="rank"/>
+<node id="passage"/>
+<node id="public_square"/>
+<node id="square"/>
+<node id="delegate"/>
+<node id="depute"/>
+<node id="assign"/>
+<node id="evaluate"/>
+<node id="pass_judgment"/>
+<node id="station"/>
+<node id="post"/>
+<node id="send"/>
+<node id="order"/>
+<node id="determine"/>
+<node id="situate"/>
+<node id="locate"/>
+<node id="race"/>
+<node id="run"/>
+<node id="sing"/>
+<node id="posture"/>
+<node id="pretense"/>
+<node id="pretence"/>
+<node id="pretending"/>
+<node id="simulation"/>
+<node id="feigning"/>
+<node id="constitute"/>
+<node id="make_up"/>
+<node id="comprise"/>
+<node id="expose"/>
+<node id="exhibit"/>
+<node id="display"/>
+<node id="deceive"/>
+<node id="betray"/>
+<node id="lead_astray"/>
+<node id="behave"/>
+<node id="acquit"/>
+<node id="bear"/>
+<node id="deport"/>
+<node id="conduct"/>
+<node id="comport"/>
+<node id="carry"/>
+<node id="confuse"/>
+<node id="throw"/>
+<node id="fox"/>
+<node id="befuddle"/>
+<node id="fuddle"/>
+<node id="bedevil"/>
+<node id="confound"/>
+<node id="discombobulate"/>
+<node id="song"/>
+<node id="vocal"/>
+<node id="poem"/>
+<node id="verse_form"/>
+<node id="devise"/>
+<node id="get_up"/>
+<node id="machinate"/>
+<node id="put_down"/>
+<node id="repose"/>
+<node id="levy"/>
+<node id="impose"/>
+<node id="misinform"/>
+<node id="mislead"/>
+<node id="change_posture"/>
+<node id="decision"/>
+<node id="determination"/>
+<node id="conclusion"/>
+<node id="turn"/>
+<node id="vary"/>
+<node id="cause"/>
+<node id="strike"/>
+<node id="sell"/>
+<node id="supplant"/>
+<node id="replace"/>
+<node id="supersede"/>
+<node id="supervene_upon"/>
+<node id="supercede"/>
+<node id="remove"/>
+<node id="expectation"/>
+<node id="outlook"/>
+<node id="prospect"/>
+<node id="being"/>
+<node id="beingness"/>
+<node id="existence"/>
+<node id="alternative"/>
+<node id="choice"/>
+<node id="development"/>
+<node id="venture"/>
+<node id="probability"/>
+<node id="causal_agent"/>
+<node id="causal_agency"/>
+<node id="system_of_measurement"/>
+<node id="metric"/>
+<node id="poetic_rhythm"/>
+<node id="rhythmic_pattern"/>
+<node id="prosody"/>
+<node id="musical_notation"/>
+<node id="measuring_instrument"/>
+<node id="measuring_system"/>
+<node id="measuring_device"/>
+<node id="container"/>
+<node id="decide"/>
+<node id="make_up_one's_mind"/>
+<node id="convey"/>
+<node id="become"/>
+<node id="electrical_phenomenon"/>
+<node id="aptitude"/>
+<node id="power"/>
+<node id="powerfulness"/>
+<node id="physical_condition"/>
+<node id="physiological_state"/>
+<node id="physiological_condition"/>
+<node id="accident"/>
+<node id="stroke"/>
+<node id="fortuity"/>
+<node id="chance_event"/>
+<node id="travel"/>
+<node id="go"/>
+<node id="locomote"/>
+<node id="talk"/>
+<node id="speak"/>
+<node id="get_going"/>
+<node id="appear"/>
+<node id="seem"/>
+<node id="dismiss"/>
+<node id="disregard"/>
+<node id="brush_aside"/>
+<node id="brush_off"/>
+<node id="discount"/>
+<node id="push_aside"/>
+<node id="ignore"/>
+<node id="make_pass"/>
+<node id="disappear"/>
+<node id="vanish"/>
+<node id="exhaust"/>
+<node id="discharge"/>
+<node id="expel"/>
+<node id="eject"/>
+<node id="release"/>
+<node id="come_along"/>
+<node id="accomplishment"/>
+<node id="achievement"/>
+<node id="leave_of_absence"/>
+<node id="football_play"/>
+<node id="permission"/>
+<node id="flight"/>
+<node id="flying"/>
+<node id="juncture"/>
+<node id="occasion"/>
+<node id="cycle"/>
+<node id="oscillation"/>
+<node id="concession"/>
+<node id="conceding"/>
+<node id="yielding"/>
+<node id="license"/>
+<node id="licence"/>
+<node id="permit"/>
+<node id="ticket"/>
+<node id="success"/>
+<node id="step"/>
+<node id="ordain"/>
+<node id="enact"/>
+<node id="advance"/>
+<node id="progress"/>
+<node id="pass_on"/>
+<node id="move_on"/>
+<node id="march_on"/>
+<node id="transfer"/>
+<node id="succeed"/>
+<node id="win"/>
+<node id="come_through"/>
+<node id="bring_home_the_bacon"/>
+<node id="deliver_the_goods"/>
+<node id="transmit"/>
+<node id="excel"/>
+<node id="stand_out"/>
+<node id="surpass"/>
+<node id="let"/>
+<node id="allow"/>
+<node id="change_hands"/>
+<node id="change_owners"/>
+<node id="countenance"/>
+<node id="change_state"/>
+<node id="quarrel"/>
+<node id="dispute"/>
+<node id="scrap"/>
+<node id="argufy"/>
+<node id="altercate"/>
+<node id="result"/>
+<node id="ensue"/>
+<node id="emerge"/>
+<node id="come_out"/>
+<node id="come_forth"/>
+<node id="egress"/>
+<node id="exit"/>
+<node id="go_out"/>
+<node id="get_out"/>
+<node id="consume"/>
+<node id="ingest"/>
+<node id="take_in"/>
+<node id="have"/>
+<node id="probe"/>
+<node id="pain"/>
+<node id="anguish"/>
+<node id="hurt"/>
+<node id="afflict"/>
+<node id="melt"/>
+<node id="melt_down"/>
+<node id="wear"/>
+<node id="put_on"/>
+<node id="get_into"/>
+<node id="don"/>
+<node id="assume"/>
+<node id="movement"/>
+<node id="motion"/>
+<node id="desire"/>
+<node id="want"/>
+<node id="request"/>
+<node id="crime"/>
+<node id="offense"/>
+<node id="criminal_offense"/>
+<node id="criminal_offence"/>
+<node id="offence"/>
+<node id="law-breaking"/>
+<node id="pioneer"/>
+<node id="appraisal"/>
+<node id="assessment"/>
+<node id="report"/>
+<node id="written_report"/>
+<node id="test"/>
+<node id="trial"/>
+<node id="event"/>
+<node id="publication"/>
+<node id="petition"/>
+<node id="postulation"/>
+<node id="hive_away"/>
+<node id="lay_in"/>
+<node id="put_in"/>
+<node id="salt_away"/>
+<node id="stack_away"/>
+<node id="stash_away"/>
+<node id="roll_up"/>
+<node id="collect"/>
+<node id="accumulate"/>
+<node id="pile_up"/>
+<node id="amass"/>
+<node id="compile"/>
+<node id="hoard"/>
+<node id="get"/>
+<node id="acquire"/>
+<node id="join"/>
+<node id="bring_together"/>
+<node id="handicraft"/>
+<node id="needlework"/>
+<node id="needlecraft"/>
+<node id="fasten"/>
+<node id="secure"/>
+<node id="fashion"/>
+<node id="forge"/>
+<node id="alteration"/>
+<node id="modification"/>
+<node id="change_of_magnitude"/>
+<node id="change_magnitude"/>
+<node id="rational_motive"/>
+<node id="explanation"/>
+<node id="account"/>
+<node id="faculty"/>
+<node id="mental_faculty"/>
+<node id="module"/>
+<node id="sanity"/>
+<node id="saneness"/>
+<node id="justification"/>
+<node id="cogitate"/>
+<node id="cerebrate"/>
+<node id="lay_out"/>
+<node id="terminate"/>
+<node id="agree"/>
+<node id="hold"/>
+<node id="concur"/>
+<node id="concord"/>
+<node id="stop"/>
+<node id="finish"/>
+<node id="cease"/>
+<node id="raise"/>
+<node id="lift"/>
+<node id="elevate"/>
+<node id="bring_up"/>
+<node id="owe"/>
+<node id="tailor"/>
+<node id="tailor-make"/>
+<node id="hurting"/>
+<node id="propulsion"/>
+<node id="actuation"/>
+<node id="force"/>
+<node id="advantage"/>
+<node id="vantage"/>
+<node id="injury"/>
+<node id="harm"/>
+<node id="trauma"/>
+<node id="inhalation"/>
+<node id="inspiration"/>
+<node id="aspiration"/>
+<node id="intake"/>
+<node id="breathing_in"/>
+<node id="elbow_grease"/>
+<node id="exertion"/>
+<node id="travail"/>
+<node id="sweat"/>
+<node id="drive"/>
+<node id="take_away"/>
+<node id="withdraw"/>
+<node id="injure"/>
+<node id="wound"/>
+<node id="row"/>
+<node id="rein"/>
+<node id="rein_in"/>
+<node id="tear"/>
+<node id="rupture"/>
+<node id="snap"/>
+<node id="bust"/>
+<node id="hit"/>
+<node id="strip"/>
+<node id="side"/>
+<node id="investigation"/>
+<node id="investigating"/>
+<node id="higher_cognitive_process"/>
+<node id="examination"/>
+<node id="scrutiny"/>
+<node id="investigate"/>
+<node id="look_into"/>
+<node id="expect"/>
+<node id="await"/>
+<node id="wait"/>
+<node id="method"/>
+<node id="plan_of_action"/>
+<node id="live_body"/>
+<node id="building_block"/>
+<node id="classify"/>
+<node id="sort"/>
+<node id="assort"/>
+<node id="sort_out"/>
+<node id="separate"/>
+<node id="meet"/>
+<node id="gather"/>
+<node id="assemble"/>
+<node id="forgather"/>
+<node id="foregather"/>
+<node id="classification_system"/>
+<node id="metallic_element"/>
+<node id="metal"/>
+<node id="typify"/>
+<node id="symbolize"/>
+<node id="symbolise"/>
+<node id="stand_for"/>
+<node id="occupy"/>
+<node id="use_up"/>
+<node id="stay"/>
+<node id="remain"/>
+<node id="rest"/>
+<node id="enough"/>
+<node id="sufficiency"/>
+<node id="material"/>
+<node id="stuff"/>
+<node id="provide"/>
+<node id="ply"/>
+<node id="cater"/>
+<node id="eat"/>
+<node id="negative_stimulus"/>
+<node id="anxiety"/>
+<node id="mind"/>
+<node id="perturb"/>
+<node id="unhinge"/>
+<node id="disquiet"/>
+<node id="cark"/>
+<node id="distract"/>
+<node id="disorder"/>
+<node id="incise"/>
+<node id="rub"/>
+<node id="judiciousness"/>
+<node id="predicament"/>
+<node id="quandary"/>
+<node id="plight"/>
+<node id="protection"/>
+<node id="fixing"/>
+<node id="fixture"/>
+<node id="mending"/>
+<node id="reparation"/>
+<node id="feel_for"/>
+<node id="pity"/>
+<node id="compassionate"/>
+<node id="condole_with"/>
+<node id="sympathize_with"/>
+<node id="help"/>
+<node id="assist"/>
+<node id="aid"/>
+<node id="periodic_event"/>
+<node id="recurrent_event"/>
+<node id="emit"/>
+<node id="let_out"/>
+<node id="let_loose"/>
+<node id="spiel"/>
+<node id="recur"/>
+<node id="re-create"/>
+<node id="education"/>
+<node id="undergo"/>
+<node id="seat"/>
+<node id="perceive"/>
+<node id="comprehend"/>
+<node id="imagine"/>
+<node id="conceive_of"/>
+<node id="ideate"/>
+<node id="envisage"/>
+<node id="verify"/>
+<node id="visit"/>
+<node id="call_in"/>
+<node id="call"/>
+<node id="tour"/>
+<node id="give_care"/>
+<node id="receive"/>
+<node id="invite"/>
+<node id="consort"/>
+<node id="associate"/>
+<node id="affiliate"/>
+<node id="debate"/>
+<node id="moot"/>
+<node id="turn_over"/>
+<node id="deliberate"/>
+<node id="detect"/>
+<node id="observe"/>
+<node id="find"/>
+<node id="discover"/>
+<node id="notice"/>
+<node id="accompany"/>
+<node id="bet"/>
+<node id="wager"/>
+<node id="understand"/>
+<node id="complete"/>
+<node id="implementation"/>
+<node id="effectuation"/>
+<node id="musical_arrangement"/>
+<node id="arrangement"/>
+<node id="arranging"/>
+<node id="transcription"/>
+<node id="kind"/>
+<node id="variety"/>
+<node id="taste"/>
+<node id="appreciation"/>
+<node id="discernment"/>
+<node id="perceptiveness"/>
+<node id="reproductive_structure"/>
+<node id="instruction"/>
+<node id="elegance"/>
+<node id="tool"/>
+<node id="outgrowth"/>
+<node id="appendage"/>
+<node id="name"/>
+<node id="military_operation"/>
+<node id="evasion"/>
+<node id="creating_by_mental_acts"/>
+<node id="plan"/>
+<node id="program"/>
+<node id="programme"/>
+<node id="decoration"/>
+<node id="ornament"/>
+<node id="ornamentation"/>
+<node id="sketch"/>
+<node id="intend"/>
+<node id="destine"/>
+<node id="specify"/>
+<node id="gestate"/>
+<node id="conceptualize"/>
+<node id="conceptualise"/>
+<node id="mean"/>
+<node id="practice"/>
+<node id="exemplar"/>
+<node id="example"/>
+<node id="model"/>
+<node id="good_example"/>
+<node id="path"/>
+<node id="itinerary"/>
+<node id="graph"/>
+<node id="graphical_record"/>
+<node id="imitate"/>
+<node id="copy"/>
+<node id="simulate"/>
+<node id="match"/>
+<node id="correspond"/>
+<node id="check"/>
+<node id="jibe"/>
+<node id="gibe"/>
+<node id="tally"/>
+<node id="illustration"/>
+<node id="organic_structure"/>
+<node id="physical_structure"/>
+<node id="integer"/>
+<node id="whole_number"/>
+<node id="important_person"/>
+<node id="influential_person"/>
+<node id="personage"/>
+<node id="sum"/>
+<node id="sum_of_money"/>
+<node id="amount_of_money"/>
+<node id="effect"/>
+<node id="rhetorical_device"/>
+<node id="percept"/>
+<node id="perception"/>
+<node id="perceptual_experience"/>
+<node id="grok"/>
+<node id="get_the_picture"/>
+<node id="savvy"/>
+<node id="dig"/>
+<node id="grasp"/>
+<node id="apprehend"/>
+<node id="symbolization"/>
+<node id="symbolisation"/>
+<node id="symbolic_representation"/>
+<node id="finding"/>
+<node id="imaginary_being"/>
+<node id="imaginary_creature"/>
+<node id="dimension"/>
+<node id="adult"/>
+<node id="grownup"/>
+<node id="repute"/>
+<node id="reputation"/>
+<node id="recommendation"/>
+<node id="testimonial"/>
+<node id="good_word"/>
+<node id="written_symbol"/>
+<node id="printed_symbol"/>
+<node id="scratch"/>
+<node id="engrave"/>
+<node id="grave"/>
+<node id="inscribe"/>
+<node id="distance"/>
+<node id="taxonomic_group"/>
+<node id="taxonomic_category"/>
+<node id="taxon"/>
+<node id="block"/>
+<node id="identify"/>
+<edge source="cell" target="political_entity"/>
+<edge source="cell" target="radiotelephone"/>
+<edge source="cell" target="living_thing"/>
+<edge source="cell" target="room"/>
+<edge source="cell" target="wireless_telephone"/>
+<edge source="cell" target="political_unit"/>
+<edge source="cell" target="electrical_device"/>
+<edge source="cell" target="animate_thing"/>
+<edge source="cell" target="radiophone"/>
+<edge source="cell" target="compartment"/>
+<edge source="political_entity" target="unit"/>
+<edge source="political_entity" target="social_unit"/>
+<edge source="radiotelephone" target="wireless"/>
+<edge source="radiotelephone" target="telephone"/>
+<edge source="radiotelephone" target="phone"/>
+<edge source="radiotelephone" target="telephone_set"/>
+<edge source="living_thing" target="whole"/>
+<edge source="living_thing" target="unit"/>
+<edge source="room" target="area"/>
+<edge source="room" target="position"/>
+<edge source="room" target="spatial_relation"/>
+<edge source="room" target="opportunity"/>
+<edge source="room" target="chance"/>
+<edge source="room" target="gathering"/>
+<edge source="room" target="assemblage"/>
+<edge source="room" target="populate"/>
+<edge source="room" target="dwell"/>
+<edge source="room" target="live"/>
+<edge source="room" target="inhabit"/>
+<edge source="wireless_telephone" target="wireless"/>
+<edge source="wireless_telephone" target="telephone"/>
+<edge source="wireless_telephone" target="phone"/>
+<edge source="wireless_telephone" target="telephone_set"/>
+<edge source="political_unit" target="unit"/>
+<edge source="political_unit" target="social_unit"/>
+<edge source="electrical_device" target="device"/>
+<edge source="animate_thing" target="whole"/>
+<edge source="animate_thing" target="unit"/>
+<edge source="radiophone" target="telephone"/>
+<edge source="radiophone" target="phone"/>
+<edge source="radiophone" target="telephone_set"/>
+<edge source="compartment" target="space"/>
+<edge source="compartment" target="room"/>
+<edge source="unit" target="definite_quantity"/>
+<edge source="unit" target="part"/>
+<edge source="unit" target="portion"/>
+<edge source="unit" target="component_part"/>
+<edge source="unit" target="component"/>
+<edge source="unit" target="constituent"/>
+<edge source="unit" target="organization"/>
+<edge source="unit" target="organisation"/>
+<edge source="unit" target="whole"/>
+<edge source="unit" target="thing"/>
+<edge source="unit" target="object"/>
+<edge source="unit" target="physical_object"/>
+<edge source="social_unit" target="organization"/>
+<edge source="social_unit" target="organisation"/>
+<edge source="wireless" target="broadcasting"/>
+<edge source="wireless" target="telecommunication"/>
+<edge source="wireless" target="telecom"/>
+<edge source="wireless" target="receiver"/>
+<edge source="wireless" target="receiving_system"/>
+<edge source="wireless" target="communication_system"/>
+<edge source="telephone" target="electronic_equipment"/>
+<edge source="telephone" target="telecommunication"/>
+<edge source="telephone" target="telecom"/>
+<edge source="telephone" target="telecommunicate"/>
+<edge source="phone" target="electronic_equipment"/>
+<edge source="phone" target="language_unit"/>
+<edge source="phone" target="linguistic_unit"/>
+<edge source="phone" target="electro-acoustic_transducer"/>
+<edge source="phone" target="telecommunicate"/>
+<edge source="telephone_set" target="electronic_equipment"/>
+<edge source="whole" target="concept"/>
+<edge source="whole" target="conception"/>
+<edge source="whole" target="construct"/>
+<edge source="whole" target="object"/>
+<edge source="whole" target="physical_object"/>
+<edge source="area" target="region"/>
+<edge source="area" target="topic"/>
+<edge source="area" target="subject"/>
+<edge source="area" target="issue"/>
+<edge source="area" target="matter"/>
+<edge source="area" target="body_part"/>
+<edge source="area" target="environment"/>
+<edge source="area" target="structure"/>
+<edge source="area" target="construction"/>
+<edge source="area" target="extent"/>
+<edge source="position" target="point"/>
+<edge source="position" target="orientation"/>
+<edge source="position" target="bodily_property"/>
+<edge source="position" target="state"/>
+<edge source="position" target="occupation"/>
+<edge source="position" target="business"/>
+<edge source="position" target="job"/>
+<edge source="position" target="line_of_work"/>
+<edge source="position" target="line"/>
+<edge source="position" target="relation"/>
+<edge source="position" target="role"/>
+<edge source="position" target="activity"/>
+<edge source="position" target="condition"/>
+<edge source="position" target="status"/>
+<edge source="position" target="attitude"/>
+<edge source="position" target="mental_attitude"/>
+<edge source="position" target="opinion"/>
+<edge source="position" target="view"/>
+<edge source="position" target="item"/>
+<edge source="position" target="function"/>
+<edge source="position" target="office"/>
+<edge source="position" target="part"/>
+<edge source="position" target="assumption"/>
+<edge source="position" target="put"/>
+<edge source="position" target="set"/>
+<edge source="position" target="place"/>
+<edge source="position" target="pose"/>
+<edge source="position" target="position"/>
+<edge source="position" target="lay"/>
+<edge source="position" target="move"/>
+<edge source="position" target="displace"/>
+<edge source="spatial_relation" target="relation"/>
+<edge source="opportunity" target="possibility"/>
+<edge source="opportunity" target="possibleness"/>
+<edge source="chance" target="possibility"/>
+<edge source="chance" target="possibleness"/>
+<edge source="chance" target="phenomenon"/>
+<edge source="chance" target="risk"/>
+<edge source="chance" target="peril"/>
+<edge source="chance" target="danger"/>
+<edge source="chance" target="measure"/>
+<edge source="chance" target="quantity"/>
+<edge source="chance" target="amount"/>
+<edge source="chance" target="potential"/>
+<edge source="chance" target="potentiality"/>
+<edge source="chance" target="potency"/>
+<edge source="chance" target="happen"/>
+<edge source="chance" target="hap"/>
+<edge source="chance" target="go_on"/>
+<edge source="chance" target="pass_off"/>
+<edge source="chance" target="occur"/>
+<edge source="chance" target="pass"/>
+<edge source="chance" target="fall_out"/>
+<edge source="chance" target="come_about"/>
+<edge source="chance" target="take_place"/>
+<edge source="chance" target="try"/>
+<edge source="chance" target="seek"/>
+<edge source="chance" target="attempt"/>
+<edge source="chance" target="essay"/>
+<edge source="chance" target="assay"/>
+<edge source="gathering" target="social_group"/>
+<edge source="gathering" target="group_action"/>
+<edge source="gathering" target="collection"/>
+<edge source="gathering" target="collecting"/>
+<edge source="gathering" target="assembling"/>
+<edge source="gathering" target="aggregation"/>
+<edge source="gathering" target="sewing"/>
+<edge source="gathering" target="stitchery"/>
+<edge source="gathering" target="interact"/>
+<edge source="gathering" target="increase"/>
+<edge source="gathering" target="reason"/>
+<edge source="gathering" target="reason_out"/>
+<edge source="gathering" target="conclude"/>
+<edge source="gathering" target="sew"/>
+<edge source="gathering" target="run_up"/>
+<edge source="gathering" target="sew_together"/>
+<edge source="gathering" target="stitch"/>
+<edge source="gathering" target="pull"/>
+<edge source="gathering" target="search"/>
+<edge source="gathering" target="seek"/>
+<edge source="gathering" target="look_for"/>
+<edge source="assemblage" target="social_group"/>
+<edge source="assemblage" target="system"/>
+<edge source="assemblage" target="group_action"/>
+<edge source="assemblage" target="group"/>
+<edge source="assemblage" target="grouping"/>
+<edge source="populate" target="be"/>
+<edge source="populate" target="fill"/>
+<edge source="populate" target="fill_up"/>
+<edge source="populate" target="make_full"/>
+<edge source="dwell" target="worry"/>
+<edge source="dwell" target="care"/>
+<edge source="dwell" target="exist"/>
+<edge source="dwell" target="be"/>
+<edge source="dwell" target="repeat"/>
+<edge source="dwell" target="reiterate"/>
+<edge source="dwell" target="ingeminate"/>
+<edge source="dwell" target="iterate"/>
+<edge source="dwell" target="restate"/>
+<edge source="dwell" target="retell"/>
+<edge source="live" target="be"/>
+<edge source="live" target="experience"/>
+<edge source="live" target="see"/>
+<edge source="live" target="go_through"/>
+<edge source="inhabit" target="be"/>
+<edge source="inhabit" target="exist"/>
+<edge source="device" target="instrumentality"/>
+<edge source="device" target="instrumentation"/>
+<edge source="device" target="expressive_style"/>
+<edge source="device" target="style"/>
+<edge source="device" target="maneuver"/>
+<edge source="device" target="manoeuvre"/>
+<edge source="device" target="tactical_maneuver"/>
+<edge source="device" target="tactical_manoeuvre"/>
+<edge source="device" target="design"/>
+<edge source="device" target="pattern"/>
+<edge source="device" target="figure"/>
+<edge source="device" target="emblem"/>
+<edge source="space" target="attribute"/>
+<edge source="space" target="location"/>
+<edge source="space" target="amorphous_shape"/>
+<edge source="space" target="area"/>
+<edge source="space" target="country"/>
+<edge source="space" target="space"/>
+<edge source="space" target="infinite"/>
+<edge source="space" target="character"/>
+<edge source="space" target="grapheme"/>
+<edge source="space" target="graphic_symbol"/>
+<edge source="space" target="time_interval"/>
+<edge source="space" target="interval"/>
+<edge source="space" target="expanse"/>
+<edge source="space" target="surface_area"/>
+<edge source="space" target="type"/>
+<edge source="space" target="put"/>
+<edge source="space" target="set"/>
+<edge source="space" target="place"/>
+<edge source="space" target="pose"/>
+<edge source="space" target="position"/>
+<edge source="space" target="lay"/>
+<edge source="definite_quantity" target="measure"/>
+<edge source="definite_quantity" target="quantity"/>
+<edge source="definite_quantity" target="amount"/>
+<edge source="part" target="relation"/>
+<edge source="part" target="object"/>
+<edge source="part" target="physical_object"/>
+<edge source="part" target="thing"/>
+<edge source="part" target="concern"/>
+<edge source="part" target="location"/>
+<edge source="part" target="duty"/>
+<edge source="part" target="portrayal"/>
+<edge source="part" target="characterization"/>
+<edge source="part" target="enactment"/>
+<edge source="part" target="personation"/>
+<edge source="part" target="assets"/>
+<edge source="part" target="concept"/>
+<edge source="part" target="conception"/>
+<edge source="part" target="construct"/>
+<edge source="part" target="line"/>
+<edge source="part" target="tune"/>
+<edge source="part" target="melody"/>
+<edge source="part" target="air"/>
+<edge source="part" target="strain"/>
+<edge source="part" target="melodic_line"/>
+<edge source="part" target="melodic_phrase"/>
+<edge source="part" target="attempt"/>
+<edge source="part" target="effort"/>
+<edge source="part" target="endeavor"/>
+<edge source="part" target="endeavour"/>
+<edge source="part" target="try"/>
+<edge source="part" target="move"/>
+<edge source="part" target="leave"/>
+<edge source="part" target="go_forth"/>
+<edge source="part" target="go_away"/>
+<edge source="part" target="change"/>
+<edge source="part" target="displace"/>
+<edge source="portion" target="relation"/>
+<edge source="portion" target="object"/>
+<edge source="portion" target="physical_object"/>
+<edge source="portion" target="allotment"/>
+<edge source="portion" target="apportionment"/>
+<edge source="portion" target="apportioning"/>
+<edge source="portion" target="allocation"/>
+<edge source="portion" target="parceling"/>
+<edge source="portion" target="parcelling"/>
+<edge source="portion" target="assignation"/>
+<edge source="portion" target="assets"/>
+<edge source="portion" target="condition"/>
+<edge source="portion" target="gift"/>
+<edge source="portion" target="small_indefinite_quantity"/>
+<edge source="portion" target="small_indefinite_amount"/>
+<edge source="portion" target="distribute"/>
+<edge source="portion" target="administer"/>
+<edge source="portion" target="mete_out"/>
+<edge source="portion" target="deal"/>
+<edge source="portion" target="parcel_out"/>
+<edge source="portion" target="lot"/>
+<edge source="portion" target="dispense"/>
+<edge source="portion" target="shell_out"/>
+<edge source="portion" target="deal_out"/>
+<edge source="portion" target="dish_out"/>
+<edge source="portion" target="allot"/>
+<edge source="portion" target="dole_out"/>
+<edge source="component_part" target="relation"/>
+<edge source="component" target="part"/>
+<edge source="component" target="section"/>
+<edge source="component" target="division"/>
+<edge source="component" target="relation"/>
+<edge source="component" target="portion"/>
+<edge source="constituent" target="part"/>
+<edge source="constituent" target="portion"/>
+<edge source="constituent" target="voter"/>
+<edge source="constituent" target="elector"/>
+<edge source="constituent" target="relation"/>
+<edge source="constituent" target="syntagma"/>
+<edge source="constituent" target="syntagm"/>
+<edge source="constituent" target="section"/>
+<edge source="constituent" target="division"/>
+<edge source="organization" target="social_group"/>
+<edge source="organization" target="structure"/>
+<edge source="organization" target="body"/>
+<edge source="organization" target="administration"/>
+<edge source="organization" target="disposal"/>
+<edge source="organization" target="orderliness"/>
+<edge source="organization" target="methodicalness"/>
+<edge source="organization" target="activity"/>
+<edge source="organization" target="beginning"/>
+<edge source="organization" target="start"/>
+<edge source="organization" target="commencement"/>
+<edge source="organisation" target="body"/>
+<edge source="organisation" target="social_group"/>
+<edge source="organisation" target="structure"/>
+<edge source="organisation" target="orderliness"/>
+<edge source="organisation" target="methodicalness"/>
+<edge source="organisation" target="administration"/>
+<edge source="organisation" target="disposal"/>
+<edge source="organisation" target="activity"/>
+<edge source="organisation" target="beginning"/>
+<edge source="organisation" target="start"/>
+<edge source="organisation" target="commencement"/>
+<edge source="thing" target="situation"/>
+<edge source="thing" target="state_of_affairs"/>
+<edge source="thing" target="action"/>
+<edge source="thing" target="abstraction"/>
+<edge source="thing" target="abstract"/>
+<edge source="thing" target="artifact"/>
+<edge source="thing" target="artefact"/>
+<edge source="thing" target="happening"/>
+<edge source="thing" target="occurrence"/>
+<edge source="thing" target="occurrent"/>
+<edge source="thing" target="natural_event"/>
+<edge source="thing" target="concern"/>
+<edge source="thing" target="statement"/>
+<edge source="thing" target="entity"/>
+<edge source="thing" target="attribute"/>
+<edge source="thing" target="aim"/>
+<edge source="thing" target="object"/>
+<edge source="thing" target="objective"/>
+<edge source="thing" target="target"/>
+<edge source="thing" target="feeling"/>
+<edge source="thing" target="physical_entity"/>
+<edge source="object" target="physical_entity"/>
+<edge source="object" target="goal"/>
+<edge source="object" target="end"/>
+<edge source="object" target="constituent"/>
+<edge source="object" target="grammatical_constituent"/>
+<edge source="object" target="content"/>
+<edge source="object" target="cognitive_content"/>
+<edge source="object" target="mental_object"/>
+<edge source="object" target="computer_science"/>
+<edge source="object" target="computing"/>
+<edge source="object" target="disapprove"/>
+<edge source="object" target="reject"/>
+<edge source="object" target="be"/>
+<edge source="physical_object" target="physical_entity"/>
+<edge source="broadcasting" target="medium"/>
+<edge source="broadcasting" target="mass_medium"/>
+<edge source="broadcasting" target="telecommunication"/>
+<edge source="broadcasting" target="telecom"/>
+<edge source="broadcasting" target="publicize"/>
+<edge source="broadcasting" target="publicise"/>
+<edge source="broadcasting" target="air"/>
+<edge source="broadcasting" target="bare"/>
+<edge source="broadcasting" target="sow"/>
+<edge source="broadcasting" target="seed"/>
+<edge source="telecommunication" target="medium"/>
+<edge source="telecommunication" target="electrical_engineering"/>
+<edge source="telecommunication" target="EE"/>
+<edge source="telecom" target="medium"/>
+<edge source="receiver" target="set"/>
+<edge source="receiver" target="fiduciary"/>
+<edge source="receiver" target="earphone"/>
+<edge source="receiver" target="earpiece"/>
+<edge source="receiver" target="headphone"/>
+<edge source="receiver" target="phone"/>
+<edge source="receiver" target="acquirer"/>
+<edge source="receiver" target="tennis_player"/>
+<edge source="receiver" target="football_player"/>
+<edge source="receiver" target="footballer"/>
+<edge source="receiving_system" target="set"/>
+<edge source="communication_system" target="system"/>
+<edge source="communication_system" target="facility"/>
+<edge source="communication_system" target="installation"/>
+<edge source="electronic_equipment" target="equipment"/>
+<edge source="telecommunicate" target="communicate"/>
+<edge source="telecommunicate" target="intercommunicate"/>
+<edge source="language_unit" target="part"/>
+<edge source="language_unit" target="portion"/>
+<edge source="language_unit" target="component_part"/>
+<edge source="language_unit" target="component"/>
+<edge source="language_unit" target="constituent"/>
+<edge source="linguistic_unit" target="part"/>
+<edge source="linguistic_unit" target="portion"/>
+<edge source="linguistic_unit" target="component_part"/>
+<edge source="linguistic_unit" target="component"/>
+<edge source="linguistic_unit" target="constituent"/>
+<edge source="electro-acoustic_transducer" target="transducer"/>
+<edge source="concept" target="idea"/>
+<edge source="concept" target="thought"/>
+<edge source="conception" target="idea"/>
+<edge source="conception" target="thought"/>
+<edge source="conception" target="sexual_activity"/>
+<edge source="conception" target="sexual_practice"/>
+<edge source="conception" target="sex"/>
+<edge source="conception" target="sex_activity"/>
+<edge source="conception" target="beginning"/>
+<edge source="conception" target="creativity"/>
+<edge source="conception" target="creativeness"/>
+<edge source="conception" target="creative_thinking"/>
+<edge source="construct" target="idea"/>
+<edge source="construct" target="thought"/>
+<edge source="construct" target="make"/>
+<edge source="construct" target="create"/>
+<edge source="construct" target="trace"/>
+<edge source="construct" target="draw"/>
+<edge source="construct" target="line"/>
+<edge source="construct" target="describe"/>
+<edge source="construct" target="delineate"/>
+<edge source="construct" target="create_by_mental_act"/>
+<edge source="construct" target="create_mentally"/>
+<edge source="construct" target="speculate"/>
+<edge source="construct" target="theorize"/>
+<edge source="construct" target="theorise"/>
+<edge source="construct" target="conjecture"/>
+<edge source="construct" target="hypothesize"/>
+<edge source="construct" target="hypothesise"/>
+<edge source="construct" target="hypothecate"/>
+<edge source="construct" target="suppose"/>
+<edge source="region" target="location"/>
+<edge source="region" target="body_part"/>
+<edge source="region" target="indefinite_quantity"/>
+<edge source="region" target="knowledge_domain"/>
+<edge source="region" target="knowledge_base"/>
+<edge source="region" target="domain"/>
+<edge source="topic" target="message"/>
+<edge source="topic" target="content"/>
+<edge source="topic" target="subject_matter"/>
+<edge source="topic" target="substance"/>
+<edge source="topic" target="cognitive_content"/>
+<edge source="topic" target="mental_object"/>
+<edge source="subject" target="message"/>
+<edge source="subject" target="content"/>
+<edge source="subject" target="subject_matter"/>
+<edge source="subject" target="substance"/>
+<edge source="subject" target="thing"/>
+<edge source="subject" target="knowledge_domain"/>
+<edge source="subject" target="knowledge_base"/>
+<edge source="subject" target="domain"/>
+<edge source="subject" target="cognitive_content"/>
+<edge source="subject" target="mental_object"/>
+<edge source="subject" target="constituent"/>
+<edge source="subject" target="grammatical_constituent"/>
+<edge source="subject" target="person"/>
+<edge source="subject" target="individual"/>
+<edge source="subject" target="someone"/>
+<edge source="subject" target="somebody"/>
+<edge source="subject" target="mortal"/>
+<edge source="subject" target="soul"/>
+<edge source="subject" target="term"/>
+<edge source="subject" target="affect"/>
+<edge source="subject" target="impact"/>
+<edge source="subject" target="bear_upon"/>
+<edge source="subject" target="bear_on"/>
+<edge source="subject" target="touch_on"/>
+<edge source="subject" target="touch"/>
+<edge source="subject" target="submit"/>
+<edge source="subject" target="dominate"/>
+<edge source="subject" target="master"/>
+<edge source="subject" target="refer"/>
+<edge source="issue" target="content"/>
+<edge source="issue" target="cognitive_content"/>
+<edge source="issue" target="mental_object"/>
+<edge source="issue" target="periodical"/>
+<edge source="issue" target="provision"/>
+<edge source="issue" target="supply"/>
+<edge source="issue" target="supplying"/>
+<edge source="issue" target="store"/>
+<edge source="issue" target="stock"/>
+<edge source="issue" target="fund"/>
+<edge source="issue" target="income"/>
+<edge source="issue" target="phenomenon"/>
+<edge source="issue" target="relative"/>
+<edge source="issue" target="relation"/>
+<edge source="issue" target="beginning"/>
+<edge source="issue" target="opening"/>
+<edge source="issue" target="printing"/>
+<edge source="issue" target="publicize"/>
+<edge source="issue" target="publicise"/>
+<edge source="issue" target="air"/>
+<edge source="issue" target="bare"/>
+<edge source="issue" target="distribute"/>
+<edge source="issue" target="communicate"/>
+<edge source="issue" target="intercommunicate"/>
+<edge source="issue" target="write"/>
+<edge source="matter" target="concern"/>
+<edge source="matter" target="content"/>
+<edge source="matter" target="cognitive_content"/>
+<edge source="matter" target="mental_object"/>
+<edge source="matter" target="physical_entity"/>
+<edge source="matter" target="trouble"/>
+<edge source="matter" target="problem"/>
+<edge source="matter" target="consequence"/>
+<edge source="matter" target="import"/>
+<edge source="matter" target="moment"/>
+<edge source="matter" target="writing"/>
+<edge source="matter" target="written_material"/>
+<edge source="matter" target="piece_of_writing"/>
+<edge source="matter" target="be"/>
+<edge source="body_part" target="part"/>
+<edge source="body_part" target="piece"/>
+<edge source="environment" target="situation"/>
+<edge source="environment" target="state_of_affairs"/>
+<edge source="environment" target="geographical_area"/>
+<edge source="environment" target="geographic_area"/>
+<edge source="environment" target="geographical_region"/>
+<edge source="environment" target="geographic_region"/>
+<edge source="structure" target="artifact"/>
+<edge source="structure" target="artefact"/>
+<edge source="structure" target="constitution"/>
+<edge source="structure" target="composition"/>
+<edge source="structure" target="physical_composition"/>
+<edge source="structure" target="makeup"/>
+<edge source="structure" target="make-up"/>
+<edge source="structure" target="cognition"/>
+<edge source="structure" target="knowledge"/>
+<edge source="structure" target="noesis"/>
+<edge source="structure" target="body_part"/>
+<edge source="structure" target="system"/>
+<edge source="structure" target="scheme"/>
+<edge source="structure" target="organize"/>
+<edge source="structure" target="organise"/>
+<edge source="structure" target="coordinate"/>
+<edge source="construction" target="creating_from_raw_materials"/>
+<edge source="construction" target="constituent"/>
+<edge source="construction" target="grammatical_constituent"/>
+<edge source="construction" target="thinking"/>
+<edge source="construction" target="thought"/>
+<edge source="construction" target="thought_process"/>
+<edge source="construction" target="cerebration"/>
+<edge source="construction" target="intellection"/>
+<edge source="construction" target="mentation"/>
+<edge source="construction" target="artifact"/>
+<edge source="construction" target="artefact"/>
+<edge source="construction" target="mathematical_process"/>
+<edge source="construction" target="mathematical_operation"/>
+<edge source="construction" target="operation"/>
+<edge source="construction" target="interpretation"/>
+<edge source="construction" target="commercial_enterprise"/>
+<edge source="construction" target="business_enterprise"/>
+<edge source="construction" target="business"/>
+<edge source="extent" target="degree"/>
+<edge source="extent" target="level"/>
+<edge source="extent" target="stage"/>
+<edge source="extent" target="point"/>
+<edge source="extent" target="magnitude"/>
+<edge source="point" target="component"/>
+<edge source="point" target="constituent"/>
+<edge source="point" target="element"/>
+<edge source="point" target="factor"/>
+<edge source="point" target="ingredient"/>
+<edge source="point" target="location"/>
+<edge source="point" target="meaning"/>
+<edge source="point" target="significance"/>
+<edge source="point" target="signification"/>
+<edge source="point" target="import"/>
+<edge source="point" target="fact"/>
+<edge source="point" target="state"/>
+<edge source="point" target="measure"/>
+<edge source="point" target="quantity"/>
+<edge source="point" target="amount"/>
+<edge source="point" target="aim"/>
+<edge source="point" target="object"/>
+<edge source="point" target="objective"/>
+<edge source="point" target="target"/>
+<edge source="point" target="convex_shape"/>
+<edge source="point" target="convexity"/>
+<edge source="point" target="disk"/>
+<edge source="point" target="disc"/>
+<edge source="point" target="saucer"/>
+<edge source="point" target="unit_of_measurement"/>
+<edge source="point" target="unit"/>
+<edge source="point" target="promontory"/>
+<edge source="point" target="headland"/>
+<edge source="point" target="head"/>
+<edge source="point" target="foreland"/>
+<edge source="point" target="part"/>
+<edge source="point" target="portion"/>
+<edge source="point" target="component_part"/>
+<edge source="point" target="relevance"/>
+<edge source="point" target="relevancy"/>
+<edge source="point" target="characteristic"/>
+<edge source="point" target="end"/>
+<edge source="point" target="terminal"/>
+<edge source="point" target="direction"/>
+<edge source="point" target="linear_unit"/>
+<edge source="point" target="linear_measure"/>
+<edge source="point" target="loan"/>
+<edge source="point" target="punctuation"/>
+<edge source="point" target="punctuation_mark"/>
+<edge source="point" target="mark"/>
+<edge source="point" target="mathematical_notation"/>
+<edge source="point" target="taper"/>
+<edge source="point" target="gun_muzzle"/>
+<edge source="point" target="muzzle"/>
+<edge source="point" target="wall_socket"/>
+<edge source="point" target="wall_plug"/>
+<edge source="point" target="electric_outlet"/>
+<edge source="point" target="electrical_outlet"/>
+<edge source="point" target="outlet"/>
+<edge source="point" target="electric_receptacle"/>
+<edge source="point" target="contact"/>
+<edge source="point" target="tangency"/>
+<edge source="point" target="inform"/>
+<edge source="point" target="lie"/>
+<edge source="point" target="take"/>
+<edge source="point" target="train"/>
+<edge source="point" target="take_aim"/>
+<edge source="point" target="direct"/>
+<edge source="point" target="control"/>
+<edge source="point" target="command"/>
+<edge source="point" target="tell"/>
+<edge source="point" target="sail"/>
+<edge source="point" target="tag"/>
+<edge source="point" target="label"/>
+<edge source="point" target="be"/>
+<edge source="point" target="indicate"/>
+<edge source="point" target="point"/>
+<edge source="point" target="designate"/>
+<edge source="point" target="show"/>
+<edge source="point" target="change_shape"/>
+<edge source="point" target="change_form"/>
+<edge source="point" target="deform"/>
+<edge source="point" target="repair"/>
+<edge source="point" target="mend"/>
+<edge source="point" target="fix"/>
+<edge source="point" target="bushel"/>
+<edge source="point" target="doctor"/>
+<edge source="point" target="furbish_up"/>
+<edge source="point" target="restore"/>
+<edge source="point" target="touch_on"/>
+<edge source="orientation" target="placement"/>
+<edge source="orientation" target="location"/>
+<edge source="orientation" target="locating"/>
+<edge source="orientation" target="position"/>
+<edge source="orientation" target="positioning"/>
+<edge source="orientation" target="emplacement"/>
+<edge source="orientation" target="attitude"/>
+<edge source="orientation" target="mental_attitude"/>
+<edge source="orientation" target="direction"/>
+<edge source="orientation" target="predisposition"/>
+<edge source="orientation" target="self-awareness"/>
+<edge source="orientation" target="course"/>
+<edge source="orientation" target="course_of_study"/>
+<edge source="orientation" target="course_of_instruction"/>
+<edge source="orientation" target="class"/>
+<edge source="bodily_property" target="property"/>
+<edge source="state" target="administrative_district"/>
+<edge source="state" target="administrative_division"/>
+<edge source="state" target="territorial_division"/>
+<edge source="state" target="attribute"/>
+<edge source="state" target="government"/>
+<edge source="state" target="authorities"/>
+<edge source="state" target="regime"/>
+<edge source="state" target="political_unit"/>
+<edge source="state" target="political_entity"/>
+<edge source="state" target="chemical_phenomenon"/>
+<edge source="state" target="emotional_state"/>
+<edge source="state" target="spirit"/>
+<edge source="state" target="executive_department"/>
+<edge source="state" target="express"/>
+<edge source="state" target="verbalize"/>
+<edge source="state" target="verbalise"/>
+<edge source="state" target="utter"/>
+<edge source="state" target="give_tongue_to"/>
+<edge source="state" target="propose"/>
+<edge source="state" target="suggest"/>
+<edge source="state" target="advise"/>
+<edge source="state" target="denote"/>
+<edge source="state" target="refer"/>
+<edge source="occupation" target="activity"/>
+<edge source="occupation" target="social_control"/>
+<edge source="occupation" target="acquiring"/>
+<edge source="occupation" target="getting"/>
+<edge source="occupation" target="time_period"/>
+<edge source="occupation" target="period_of_time"/>
+<edge source="occupation" target="period"/>
+<edge source="business" target="enterprise"/>
+<edge source="business" target="commerce"/>
+<edge source="business" target="commercialism"/>
+<edge source="business" target="mercantilism"/>
+<edge source="business" target="activity"/>
+<edge source="business" target="concern"/>
+<edge source="business" target="worry"/>
+<edge source="business" target="headache"/>
+<edge source="business" target="vexation"/>
+<edge source="business" target="aim"/>
+<edge source="business" target="object"/>
+<edge source="business" target="objective"/>
+<edge source="business" target="target"/>
+<edge source="business" target="business_activity"/>
+<edge source="business" target="commercial_activity"/>
+<edge source="business" target="sector"/>
+<edge source="business" target="people"/>
+<edge source="business" target="acting"/>
+<edge source="business" target="playing"/>
+<edge source="business" target="playacting"/>
+<edge source="business" target="performing"/>
+<edge source="job" target="activity"/>
+<edge source="job" target="duty"/>
+<edge source="job" target="workplace"/>
+<edge source="job" target="work"/>
+<edge source="job" target="product"/>
+<edge source="job" target="production"/>
+<edge source="job" target="responsibility"/>
+<edge source="job" target="obligation"/>
+<edge source="job" target="difficulty"/>
+<edge source="job" target="unfortunate"/>
+<edge source="job" target="unfortunate_person"/>
+<edge source="job" target="application"/>
+<edge source="job" target="application_program"/>
+<edge source="job" target="applications_programme"/>
+<edge source="job" target="robbery"/>
+<edge source="job" target="cheat"/>
+<edge source="job" target="chisel"/>
+<edge source="job" target="hire"/>
+<edge source="job" target="engage"/>
+<edge source="job" target="employ"/>
+<edge source="job" target="do_work"/>
+<edge source="job" target="invest"/>
+<edge source="job" target="put"/>
+<edge source="job" target="commit"/>
+<edge source="job" target="place"/>
+<edge source="line_of_work" target="activity"/>
+<edge source="line" target="formation"/>
+<edge source="line" target="mark"/>
+<edge source="line" target="print"/>
+<edge source="line" target="shape"/>
+<edge source="line" target="form"/>
+<edge source="line" target="text"/>
+<edge source="line" target="textual_matter"/>
+<edge source="line" target="electromagnetic_radiation"/>
+<edge source="line" target="electromagnetic_wave"/>
+<edge source="line" target="nonparticulate_radiation"/>
+<edge source="line" target="military_position"/>
+<edge source="line" target="position"/>
+<edge source="line" target="reasoning"/>
+<edge source="line" target="logical_thinking"/>
+<edge source="line" target="abstract_thought"/>
+<edge source="line" target="conductor"/>
+<edge source="line" target="series"/>
+<edge source="line" target="location"/>
+<edge source="line" target="depression"/>
+<edge source="line" target="impression"/>
+<edge source="line" target="imprint"/>
+<edge source="line" target="pipe"/>
+<edge source="line" target="pipage"/>
+<edge source="line" target="piping"/>
+<edge source="line" target="road"/>
+<edge source="line" target="route"/>
+<edge source="line" target="connection"/>
+<edge source="line" target="connexion"/>
+<edge source="line" target="connector"/>
+<edge source="line" target="connecter"/>
+<edge source="line" target="connective"/>
+<edge source="line" target="conformity"/>
+<edge source="line" target="conformation"/>
+<edge source="line" target="compliance"/>
+<edge source="line" target="abidance"/>
+<edge source="line" target="genealogy"/>
+<edge source="line" target="family_tree"/>
+<edge source="line" target="artifact"/>
+<edge source="line" target="artefact"/>
+<edge source="line" target="activity"/>
+<edge source="line" target="communication"/>
+<edge source="line" target="communicating"/>
+<edge source="line" target="merchandise"/>
+<edge source="line" target="ware"/>
+<edge source="line" target="product"/>
+<edge source="line" target="carrier"/>
+<edge source="line" target="common_carrier"/>
+<edge source="line" target="area_unit"/>
+<edge source="line" target="square_measure"/>
+<edge source="line" target="credit"/>
+<edge source="line" target="music"/>
+<edge source="line" target="persuasion"/>
+<edge source="line" target="suasion"/>
+<edge source="line" target="personal_letter"/>
+<edge source="line" target="differentiation"/>
+<edge source="line" target="distinction"/>
+<edge source="line" target="mechanical_system"/>
+<edge source="line" target="lie"/>
+<edge source="line" target="cover"/>
+<edge source="line" target="score"/>
+<edge source="line" target="nock"/>
+<edge source="line" target="fill"/>
+<edge source="line" target="fill_up"/>
+<edge source="line" target="make_full"/>
+<edge source="line" target="reinforce"/>
+<edge source="line" target="reenforce"/>
+<edge source="relation" target="abstraction"/>
+<edge source="relation" target="abstract_entity"/>
+<edge source="relation" target="sexual_activity"/>
+<edge source="relation" target="sexual_practice"/>
+<edge source="relation" target="sex"/>
+<edge source="relation" target="sex_activity"/>
+<edge source="relation" target="person"/>
+<edge source="relation" target="individual"/>
+<edge source="relation" target="someone"/>
+<edge source="relation" target="somebody"/>
+<edge source="relation" target="mortal"/>
+<edge source="relation" target="soul"/>
+<edge source="relation" target="narration"/>
+<edge source="relation" target="recital"/>
+<edge source="relation" target="yarn"/>
+<edge source="relation" target="legal_principle"/>
+<edge source="relation" target="judicial_principle"/>
+<edge source="relation" target="judicial_doctrine"/>
+<edge source="relation" target="dealings"/>
+<edge source="relation" target="traffic"/>
+<edge source="role" target="duty"/>
+<edge source="role" target="portrayal"/>
+<edge source="role" target="characterization"/>
+<edge source="role" target="enactment"/>
+<edge source="role" target="personation"/>
+<edge source="role" target="utility"/>
+<edge source="role" target="usefulness"/>
+<edge source="role" target="activity"/>
+<edge source="activity" target="act"/>
+<edge source="activity" target="deed"/>
+<edge source="activity" target="human_action"/>
+<edge source="activity" target="human_activity"/>
+<edge source="activity" target="state"/>
+<edge source="activity" target="organic_process"/>
+<edge source="activity" target="biological_process"/>
+<edge source="activity" target="capability"/>
+<edge source="activity" target="capacity"/>
+<edge source="activity" target="process"/>
+<edge source="activity" target="physical_process"/>
+<edge source="activity" target="trait"/>
+<edge source="condition" target="state"/>
+<edge source="condition" target="premise"/>
+<edge source="condition" target="premiss"/>
+<edge source="condition" target="assumption"/>
+<edge source="condition" target="information"/>
+<edge source="condition" target="good_health"/>
+<edge source="condition" target="healthiness"/>
+<edge source="condition" target="illness"/>
+<edge source="condition" target="unwellness"/>
+<edge source="condition" target="malady"/>
+<edge source="condition" target="sickness"/>
+<edge source="condition" target="statement"/>
+<edge source="condition" target="procedure"/>
+<edge source="condition" target="process"/>
+<edge source="condition" target="teach"/>
+<edge source="condition" target="learn"/>
+<edge source="condition" target="instruct"/>
+<edge source="condition" target="develop"/>
+<edge source="condition" target="make_grow"/>
+<edge source="condition" target="contract"/>
+<edge source="condition" target="undertake"/>
+<edge source="condition" target="better"/>
+<edge source="condition" target="improve"/>
+<edge source="condition" target="amend"/>
+<edge source="condition" target="ameliorate"/>
+<edge source="condition" target="meliorate"/>
+<edge source="condition" target="shampoo"/>
+<edge source="status" target="state"/>
+<edge source="attitude" target="cognition"/>
+<edge source="attitude" target="knowledge"/>
+<edge source="attitude" target="noesis"/>
+<edge source="attitude" target="bodily_property"/>
+<edge source="attitude" target="affectation"/>
+<edge source="attitude" target="mannerism"/>
+<edge source="attitude" target="pose"/>
+<edge source="attitude" target="affectedness"/>
+<edge source="attitude" target="orientation"/>
+<edge source="mental_attitude" target="cognition"/>
+<edge source="mental_attitude" target="knowledge"/>
+<edge source="mental_attitude" target="noesis"/>
+<edge source="opinion" target="belief"/>
+<edge source="opinion" target="message"/>
+<edge source="opinion" target="content"/>
+<edge source="opinion" target="subject_matter"/>
+<edge source="opinion" target="substance"/>
+<edge source="opinion" target="legal_document"/>
+<edge source="opinion" target="legal_instrument"/>
+<edge source="opinion" target="official_document"/>
+<edge source="opinion" target="instrument"/>
+<edge source="opinion" target="judgment"/>
+<edge source="opinion" target="judgement"/>
+<edge source="opinion" target="judicial_decision"/>
+<edge source="opinion" target="idea"/>
+<edge source="opinion" target="thought"/>
+<edge source="view" target="orientation"/>
+<edge source="view" target="visual_percept"/>
+<edge source="view" target="visual_image"/>
+<edge source="view" target="look"/>
+<edge source="view" target="looking"/>
+<edge source="view" target="looking_at"/>
+<edge source="view" target="range"/>
+<edge source="view" target="reach"/>
+<edge source="view" target="belief"/>
+<edge source="view" target="message"/>
+<edge source="view" target="content"/>
+<edge source="view" target="subject_matter"/>
+<edge source="view" target="substance"/>
+<edge source="view" target="purpose"/>
+<edge source="view" target="intent"/>
+<edge source="view" target="intention"/>
+<edge source="view" target="aim"/>
+<edge source="view" target="design"/>
+<edge source="view" target="graphic_art"/>
+<edge source="view" target="scope"/>
+<edge source="view" target="orbit"/>
+<edge source="view" target="compass"/>
+<edge source="view" target="ambit"/>
+<edge source="view" target="appearance"/>
+<edge source="view" target="visual_aspect"/>
+<edge source="view" target="think"/>
+<edge source="view" target="believe"/>
+<edge source="view" target="consider"/>
+<edge source="view" target="conceive"/>
+<edge source="view" target="analyze"/>
+<edge source="view" target="analyse"/>
+<edge source="view" target="study"/>
+<edge source="view" target="examine"/>
+<edge source="view" target="canvass"/>
+<edge source="view" target="canvas"/>
+<edge source="view" target="watch"/>
+<edge source="item" target="part"/>
+<edge source="item" target="portion"/>
+<edge source="item" target="component_part"/>
+<edge source="item" target="component"/>
+<edge source="item" target="constituent"/>
+<edge source="item" target="whole"/>
+<edge source="item" target="unit"/>
+<edge source="item" target="fact"/>
+<edge source="item" target="symbol"/>
+<edge source="function" target="mathematical_relation"/>
+<edge source="function" target="utility"/>
+<edge source="function" target="usefulness"/>
+<edge source="function" target="duty"/>
+<edge source="function" target="relation"/>
+<edge source="function" target="social_gathering"/>
+<edge source="function" target="social_affair"/>
+<edge source="function" target="social_event"/>
+<edge source="function" target="software"/>
+<edge source="function" target="software_program"/>
+<edge source="function" target="computer_software"/>
+<edge source="function" target="software_system"/>
+<edge source="function" target="software_package"/>
+<edge source="function" target="package"/>
+<edge source="function" target="suffice"/>
+<edge source="function" target="do"/>
+<edge source="function" target="answer"/>
+<edge source="function" target="serve"/>
+<edge source="office" target="place_of_business"/>
+<edge source="office" target="business_establishment"/>
+<edge source="office" target="administrative_unit"/>
+<edge source="office" target="administrative_body"/>
+<edge source="office" target="duty"/>
+<edge source="office" target="state"/>
+<edge source="office" target="staff"/>
+<edge source="office" target="rite"/>
+<edge source="office" target="religious_rite"/>
+<edge source="office" target="occupation"/>
+<edge source="office" target="business"/>
+<edge source="office" target="job"/>
+<edge source="office" target="line_of_work"/>
+<edge source="office" target="line"/>
+<edge source="assumption" target="postulate"/>
+<edge source="assumption" target="posit"/>
+<edge source="assumption" target="hypothesis"/>
+<edge source="assumption" target="possibility"/>
+<edge source="assumption" target="theory"/>
+<edge source="assumption" target="acquisition"/>
+<edge source="assumption" target="holy_day_of_obligation"/>
+<edge source="assumption" target="miracle"/>
+<edge source="assumption" target="audacity"/>
+<edge source="assumption" target="audaciousness"/>
+<edge source="assumption" target="act"/>
+<edge source="assumption" target="deed"/>
+<edge source="assumption" target="human_action"/>
+<edge source="assumption" target="human_activity"/>
+<edge source="put" target="option"/>
+<edge source="put" target="move"/>
+<edge source="put" target="displace"/>
+<edge source="put" target="change"/>
+<edge source="put" target="alter"/>
+<edge source="put" target="modify"/>
+<edge source="put" target="give_voice"/>
+<edge source="put" target="formulate"/>
+<edge source="put" target="word"/>
+<edge source="put" target="phrase"/>
+<edge source="put" target="articulate"/>
+<edge source="put" target="use"/>
+<edge source="put" target="utilize"/>
+<edge source="put" target="utilise"/>
+<edge source="put" target="apply"/>
+<edge source="put" target="employ"/>
+<edge source="put" target="spend"/>
+<edge source="put" target="expend"/>
+<edge source="put" target="drop"/>
+<edge source="put" target="estimate"/>
+<edge source="put" target="gauge"/>
+<edge source="put" target="approximate"/>
+<edge source="put" target="guess"/>
+<edge source="put" target="judge"/>
+<edge source="put" target="subject"/>
+<edge source="put" target="arrange"/>
+<edge source="put" target="set"/>
+<edge source="put" target="organize"/>
+<edge source="put" target="organise"/>
+<edge source="set" target="collection"/>
+<edge source="set" target="aggregation"/>
+<edge source="set" target="accumulation"/>
+<edge source="set" target="assemblage"/>
+<edge source="set" target="abstraction"/>
+<edge source="set" target="abstract_entity"/>
+<edge source="set" target="exercise"/>
+<edge source="set" target="exercising"/>
+<edge source="set" target="physical_exercise"/>
+<edge source="set" target="physical_exertion"/>
+<edge source="set" target="workout"/>
+<edge source="set" target="representation"/>
+<edge source="set" target="social_group"/>
+<edge source="set" target="inclination"/>
+<edge source="set" target="disposition"/>
+<edge source="set" target="tendency"/>
+<edge source="set" target="placement"/>
+<edge source="set" target="location"/>
+<edge source="set" target="locating"/>
+<edge source="set" target="position"/>
+<edge source="set" target="positioning"/>
+<edge source="set" target="emplacement"/>
+<edge source="set" target="playing_period"/>
+<edge source="set" target="period_of_play"/>
+<edge source="set" target="play"/>
+<edge source="set" target="natural_process"/>
+<edge source="set" target="natural_action"/>
+<edge source="set" target="action"/>
+<edge source="set" target="activity"/>
+<edge source="set" target="descent"/>
+<edge source="set" target="cognitive_state"/>
+<edge source="set" target="state_of_mind"/>
+<edge source="set" target="electronic_equipment"/>
+<edge source="set" target="move"/>
+<edge source="set" target="displace"/>
+<edge source="set" target="choose"/>
+<edge source="set" target="take"/>
+<edge source="set" target="select"/>
+<edge source="set" target="pick_out"/>
+<edge source="set" target="lay_down"/>
+<edge source="set" target="establish"/>
+<edge source="set" target="make"/>
+<edge source="set" target="change"/>
+<edge source="set" target="alter"/>
+<edge source="set" target="modify"/>
+<edge source="set" target="arrange"/>
+<edge source="set" target="set_up"/>
+<edge source="set" target="adjust"/>
+<edge source="set" target="set"/>
+<edge source="set" target="correct"/>
+<edge source="set" target="stage"/>
+<edge source="set" target="present"/>
+<edge source="set" target="represent"/>
+<edge source="set" target="descend"/>
+<edge source="set" target="fall"/>
+<edge source="set" target="go_down"/>
+<edge source="set" target="come_down"/>
+<edge source="set" target="compose"/>
+<edge source="set" target="write"/>
+<edge source="set" target="put"/>
+<edge source="set" target="place"/>
+<edge source="set" target="pose"/>
+<edge source="set" target="lay"/>
+<edge source="set" target="originate"/>
+<edge source="set" target="initiate"/>
+<edge source="set" target="start"/>
+<edge source="set" target="solidify"/>
+<edge source="set" target="print"/>
+<edge source="set" target="impress"/>
+<edge source="set" target="bury"/>
+<edge source="set" target="sink"/>
+<edge source="set" target="hone"/>
+<edge source="set" target="assail"/>
+<edge source="set" target="assault"/>
+<edge source="set" target="set_on"/>
+<edge source="set" target="attack"/>
+<edge source="set" target="estimate"/>
+<edge source="set" target="gauge"/>
+<edge source="set" target="approximate"/>
+<edge source="set" target="guess"/>
+<edge source="set" target="judge"/>
+<edge source="set" target="equip"/>
+<edge source="set" target="fit"/>
+<edge source="set" target="fit_out"/>
+<edge source="set" target="outfit"/>
+<edge source="set" target="fix"/>
+<edge source="set" target="prepare"/>
+<edge source="set" target="ready"/>
+<edge source="set" target="gear_up"/>
+<edge source="set" target="reproduce"/>
+<edge source="set" target="procreate"/>
+<edge source="set" target="multiply"/>
+<edge source="set" target="groom"/>
+<edge source="set" target="neaten"/>
+<edge source="place" target="point"/>
+<edge source="place" target="geographical_area"/>
+<edge source="place" target="geographic_area"/>
+<edge source="place" target="geographical_region"/>
+<edge source="place" target="geographic_region"/>
+<edge source="place" target="cognition"/>
+<edge source="place" target="knowledge"/>
+<edge source="place" target="noesis"/>
+<edge source="place" target="vicinity"/>
+<edge source="place" target="locality"/>
+<edge source="place" target="neighborhood"/>
+<edge source="place" target="neighbourhood"/>
+<edge source="place" target="neck_of_the_woods"/>
+<edge source="place" target="function"/>
+<edge source="place" target="office"/>
+<edge source="place" target="part"/>
+<edge source="place" target="role"/>
+<edge source="place" target="situation"/>
+<edge source="place" target="position"/>
+<edge source="place" target="residence"/>
+<edge source="place" target="abode"/>
+<edge source="place" target="occupation"/>
+<edge source="place" target="business"/>
+<edge source="place" target="job"/>
+<edge source="place" target="line_of_work"/>
+<edge source="place" target="line"/>
+<edge source="place" target="social_station"/>
+<edge source="place" target="social_status"/>
+<edge source="place" target="social_rank"/>
+<edge source="place" target="rank"/>
+<edge source="place" target="space"/>
+<edge source="place" target="passage"/>
+<edge source="place" target="condition"/>
+<edge source="place" target="status"/>
+<edge source="place" target="public_square"/>
+<edge source="place" target="square"/>
+<edge source="place" target="item"/>
+<edge source="place" target="area"/>
+<edge source="place" target="expanse"/>
+<edge source="place" target="surface_area"/>
+<edge source="place" target="move"/>
+<edge source="place" target="displace"/>
+<edge source="place" target="delegate"/>
+<edge source="place" target="designate"/>
+<edge source="place" target="depute"/>
+<edge source="place" target="assign"/>
+<edge source="place" target="evaluate"/>
+<edge source="place" target="pass_judgment"/>
+<edge source="place" target="judge"/>
+<edge source="place" target="station"/>
+<edge source="place" target="post"/>
+<edge source="place" target="send"/>
+<edge source="place" target="place"/>
+<edge source="place" target="order"/>
+<edge source="place" target="aim"/>
+<edge source="place" target="take"/>
+<edge source="place" target="train"/>
+<edge source="place" target="take_aim"/>
+<edge source="place" target="direct"/>
+<edge source="place" target="determine"/>
+<edge source="place" target="set"/>
+<edge source="place" target="stage"/>
+<edge source="place" target="present"/>
+<edge source="place" target="represent"/>
+<edge source="place" target="estimate"/>
+<edge source="place" target="gauge"/>
+<edge source="place" target="approximate"/>
+<edge source="place" target="guess"/>
+<edge source="place" target="situate"/>
+<edge source="place" target="locate"/>
+<edge source="place" target="spend"/>
+<edge source="place" target="expend"/>
+<edge source="place" target="drop"/>
+<edge source="place" target="race"/>
+<edge source="place" target="run"/>
+<edge source="place" target="sing"/>
+<edge source="pose" target="affectedness"/>
+<edge source="pose" target="position"/>
+<edge source="pose" target="posture"/>
+<edge source="pose" target="attitude"/>
+<edge source="pose" target="pretense"/>
+<edge source="pose" target="pretence"/>
+<edge source="pose" target="pretending"/>
+<edge source="pose" target="simulation"/>
+<edge source="pose" target="feigning"/>
+<edge source="pose" target="constitute"/>
+<edge source="pose" target="represent"/>
+<edge source="pose" target="make_up"/>
+<edge source="pose" target="comprise"/>
+<edge source="pose" target="be"/>
+<edge source="pose" target="expose"/>
+<edge source="pose" target="exhibit"/>
+<edge source="pose" target="display"/>
+<edge source="pose" target="deceive"/>
+<edge source="pose" target="betray"/>
+<edge source="pose" target="lead_astray"/>
+<edge source="pose" target="behave"/>
+<edge source="pose" target="acquit"/>
+<edge source="pose" target="bear"/>
+<edge source="pose" target="deport"/>
+<edge source="pose" target="conduct"/>
+<edge source="pose" target="comport"/>
+<edge source="pose" target="carry"/>
+<edge source="pose" target="move"/>
+<edge source="pose" target="displace"/>
+<edge source="pose" target="confuse"/>
+<edge source="pose" target="throw"/>
+<edge source="pose" target="fox"/>
+<edge source="pose" target="befuddle"/>
+<edge source="pose" target="fuddle"/>
+<edge source="pose" target="bedevil"/>
+<edge source="pose" target="confound"/>
+<edge source="pose" target="discombobulate"/>
+<edge source="lay" target="song"/>
+<edge source="lay" target="vocal"/>
+<edge source="lay" target="poem"/>
+<edge source="lay" target="verse_form"/>
+<edge source="lay" target="move"/>
+<edge source="lay" target="displace"/>
+<edge source="lay" target="put"/>
+<edge source="lay" target="set"/>
+<edge source="lay" target="place"/>
+<edge source="lay" target="pose"/>
+<edge source="lay" target="position"/>
+<edge source="lay" target="lay"/>
+<edge source="lay" target="organize"/>
+<edge source="lay" target="organise"/>
+<edge source="lay" target="prepare"/>
+<edge source="lay" target="devise"/>
+<edge source="lay" target="get_up"/>
+<edge source="lay" target="machinate"/>
+<edge source="lay" target="put_down"/>
+<edge source="lay" target="repose"/>
+<edge source="lay" target="levy"/>
+<edge source="lay" target="impose"/>
+<edge source="lay" target="be"/>
+<edge source="lay" target="exist"/>
+<edge source="lay" target="misinform"/>
+<edge source="lay" target="mislead"/>
+<edge source="lay" target="change_posture"/>
+<edge source="move" target="decision"/>
+<edge source="move" target="determination"/>
+<edge source="move" target="conclusion"/>
+<edge source="move" target="change"/>
+<edge source="move" target="turn"/>
+<edge source="move" target="play"/>
+<edge source="move" target="act"/>
+<edge source="move" target="move"/>
+<edge source="move" target="alter"/>
+<edge source="move" target="vary"/>
+<edge source="move" target="cause"/>
+<edge source="move" target="do"/>
+<edge source="move" target="make"/>
+<edge source="move" target="affect"/>
+<edge source="move" target="impress"/>
+<edge source="move" target="strike"/>
+<edge source="move" target="sell"/>
+<edge source="move" target="live"/>
+<edge source="move" target="propose"/>
+<edge source="move" target="suggest"/>
+<edge source="move" target="advise"/>
+<edge source="displace" target="move"/>
+<edge source="displace" target="displace"/>
+<edge source="displace" target="supplant"/>
+<edge source="displace" target="replace"/>
+<edge source="displace" target="supersede"/>
+<edge source="displace" target="supervene_upon"/>
+<edge source="displace" target="supercede"/>
+<edge source="displace" target="remove"/>
+<edge source="possibility" target="expectation"/>
+<edge source="possibility" target="outlook"/>
+<edge source="possibility" target="prospect"/>
+<edge source="possibility" target="being"/>
+<edge source="possibility" target="beingness"/>
+<edge source="possibility" target="existence"/>
+<edge source="possibility" target="concept"/>
+<edge source="possibility" target="conception"/>
+<edge source="possibility" target="construct"/>
+<edge source="possibility" target="option"/>
+<edge source="possibility" target="alternative"/>
+<edge source="possibility" target="choice"/>
+<edge source="possibleness" target="being"/>
+<edge source="possibleness" target="beingness"/>
+<edge source="possibleness" target="existence"/>
+<edge source="phenomenon" target="process"/>
+<edge source="phenomenon" target="physical_process"/>
+<edge source="phenomenon" target="development"/>
+<edge source="risk" target="danger"/>
+<edge source="risk" target="venture"/>
+<edge source="risk" target="probability"/>
+<edge source="risk" target="chance"/>
+<edge source="risk" target="try"/>
+<edge source="risk" target="seek"/>
+<edge source="risk" target="attempt"/>
+<edge source="risk" target="essay"/>
+<edge source="risk" target="assay"/>
+<edge source="peril" target="danger"/>
+<edge source="peril" target="venture"/>
+<edge source="peril" target="exist"/>
+<edge source="peril" target="be"/>
+<edge source="peril" target="affect"/>
+<edge source="peril" target="impact"/>
+<edge source="peril" target="bear_upon"/>
+<edge source="peril" target="bear_on"/>
+<edge source="peril" target="touch_on"/>
+<edge source="peril" target="touch"/>
+<edge source="danger" target="condition"/>
+<edge source="danger" target="status"/>
+<edge source="danger" target="venture"/>
+<edge source="danger" target="causal_agent"/>
+<edge source="danger" target="cause"/>
+<edge source="danger" target="causal_agency"/>
+<edge source="danger" target="area"/>
+<edge source="danger" target="country"/>
+<edge source="measure" target="maneuver"/>
+<edge source="measure" target="manoeuvre"/>
+<edge source="measure" target="tactical_maneuver"/>
+<edge source="measure" target="tactical_manoeuvre"/>
+<edge source="measure" target="abstraction"/>
+<edge source="measure" target="abstract_entity"/>
+<edge source="measure" target="legal_document"/>
+<edge source="measure" target="legal_instrument"/>
+<edge source="measure" target="official_document"/>
+<edge source="measure" target="instrument"/>
+<edge source="measure" target="activity"/>
+<edge source="measure" target="system_of_measurement"/>
+<edge source="measure" target="metric"/>
+<edge source="measure" target="poetic_rhythm"/>
+<edge source="measure" target="rhythmic_pattern"/>
+<edge source="measure" target="prosody"/>
+<edge source="measure" target="musical_notation"/>
+<edge source="measure" target="measuring_instrument"/>
+<edge source="measure" target="measuring_system"/>
+<edge source="measure" target="measuring_device"/>
+<edge source="measure" target="container"/>
+<edge source="measure" target="decide"/>
+<edge source="measure" target="make_up_one's_mind"/>
+<edge source="measure" target="determine"/>
+<edge source="measure" target="carry"/>
+<edge source="measure" target="convey"/>
+<edge source="measure" target="express"/>
+<edge source="measure" target="be"/>
+<edge source="measure" target="evaluate"/>
+<edge source="measure" target="pass_judgment"/>
+<edge source="measure" target="judge"/>
+<edge source="quantity" target="abstraction"/>
+<edge source="quantity" target="abstract_entity"/>
+<edge source="quantity" target="amount"/>
+<edge source="quantity" target="concept"/>
+<edge source="quantity" target="conception"/>
+<edge source="quantity" target="construct"/>
+<edge source="amount" target="assets"/>
+<edge source="amount" target="magnitude"/>
+<edge source="amount" target="abstraction"/>
+<edge source="amount" target="abstract_entity"/>
+<edge source="amount" target="quantity"/>
+<edge source="amount" target="be"/>
+<edge source="amount" target="become"/>
+<edge source="amount" target="turn"/>
+<edge source="potential" target="possibility"/>
+<edge source="potential" target="possibleness"/>
+<edge source="potential" target="electrical_phenomenon"/>
+<edge source="potentiality" target="possibility"/>
+<edge source="potentiality" target="possibleness"/>
+<edge source="potentiality" target="aptitude"/>
+<edge source="potency" target="control"/>
+<edge source="potency" target="power"/>
+<edge source="potency" target="powerfulness"/>
+<edge source="potency" target="possibility"/>
+<edge source="potency" target="possibleness"/>
+<edge source="potency" target="physical_condition"/>
+<edge source="potency" target="physiological_state"/>
+<edge source="potency" target="physiological_condition"/>
+<edge source="happen" target="happen"/>
+<edge source="happen" target="hap"/>
+<edge source="happen" target="go_on"/>
+<edge source="happen" target="pass_off"/>
+<edge source="happen" target="occur"/>
+<edge source="happen" target="pass"/>
+<edge source="happen" target="fall_out"/>
+<edge source="happen" target="come_about"/>
+<edge source="happen" target="take_place"/>
+<edge source="happen" target="chance"/>
+<edge source="hap" target="accident"/>
+<edge source="hap" target="stroke"/>
+<edge source="hap" target="fortuity"/>
+<edge source="hap" target="chance_event"/>
+<edge source="go_on" target="act"/>
+<edge source="go_on" target="move"/>
+<edge source="go_on" target="travel"/>
+<edge source="go_on" target="go"/>
+<edge source="go_on" target="locomote"/>
+<edge source="go_on" target="talk"/>
+<edge source="go_on" target="speak"/>
+<edge source="go_on" target="start"/>
+<edge source="go_on" target="get_going"/>
+<edge source="pass_off" target="look"/>
+<edge source="pass_off" target="appear"/>
+<edge source="pass_off" target="seem"/>
+<edge source="pass_off" target="dismiss"/>
+<edge source="pass_off" target="disregard"/>
+<edge source="pass_off" target="brush_aside"/>
+<edge source="pass_off" target="brush_off"/>
+<edge source="pass_off" target="discount"/>
+<edge source="pass_off" target="push_aside"/>
+<edge source="pass_off" target="ignore"/>
+<edge source="pass_off" target="pass"/>
+<edge source="pass_off" target="make_pass"/>
+<edge source="pass_off" target="disappear"/>
+<edge source="pass_off" target="vanish"/>
+<edge source="pass_off" target="go_away"/>
+<edge source="pass_off" target="exhaust"/>
+<edge source="pass_off" target="discharge"/>
+<edge source="pass_off" target="expel"/>
+<edge source="pass_off" target="eject"/>
+<edge source="pass_off" target="release"/>
+<edge source="occur" target="become"/>
+<edge source="occur" target="appear"/>
+<edge source="occur" target="come_along"/>
+<edge source="pass" target="accomplishment"/>
+<edge source="pass" target="achievement"/>
+<edge source="pass" target="leave"/>
+<edge source="pass" target="leave_of_absence"/>
+<edge source="pass" target="football_play"/>
+<edge source="pass" target="location"/>
+<edge source="pass" target="permission"/>
+<edge source="pass" target="flight"/>
+<edge source="pass" target="flying"/>
+<edge source="pass" target="situation"/>
+<edge source="pass" target="juncture"/>
+<edge source="pass" target="occasion"/>
+<edge source="pass" target="cycle"/>
+<edge source="pass" target="oscillation"/>
+<edge source="pass" target="concession"/>
+<edge source="pass" target="conceding"/>
+<edge source="pass" target="yielding"/>
+<edge source="pass" target="license"/>
+<edge source="pass" target="licence"/>
+<edge source="pass" target="permit"/>
+<edge source="pass" target="ticket"/>
+<edge source="pass" target="attempt"/>
+<edge source="pass" target="effort"/>
+<edge source="pass" target="endeavor"/>
+<edge source="pass" target="endeavour"/>
+<edge source="pass" target="try"/>
+<edge source="pass" target="throw"/>
+<edge source="pass" target="success"/>
+<edge source="pass" target="step"/>
+<edge source="pass" target="travel"/>
+<edge source="pass" target="go"/>
+<edge source="pass" target="move"/>
+<edge source="pass" target="locomote"/>
+<edge source="pass" target="ordain"/>
+<edge source="pass" target="enact"/>
+<edge source="pass" target="advance"/>
+<edge source="pass" target="progress"/>
+<edge source="pass" target="pass_on"/>
+<edge source="pass" target="move_on"/>
+<edge source="pass" target="march_on"/>
+<edge source="pass" target="go_on"/>
+<edge source="pass" target="transfer"/>
+<edge source="pass" target="be"/>
+<edge source="pass" target="succeed"/>
+<edge source="pass" target="win"/>
+<edge source="pass" target="come_through"/>
+<edge source="pass" target="bring_home_the_bacon"/>
+<edge source="pass" target="deliver_the_goods"/>
+<edge source="pass" target="convey"/>
+<edge source="pass" target="transmit"/>
+<edge source="pass" target="communicate"/>
+<edge source="pass" target="disappear"/>
+<edge source="pass" target="vanish"/>
+<edge source="pass" target="go_away"/>
+<edge source="pass" target="excel"/>
+<edge source="pass" target="stand_out"/>
+<edge source="pass" target="surpass"/>
+<edge source="pass" target="evaluate"/>
+<edge source="pass" target="pass_judgment"/>
+<edge source="pass" target="judge"/>
+<edge source="pass" target="let"/>
+<edge source="pass" target="allow"/>
+<edge source="pass" target="change"/>
+<edge source="pass" target="change_hands"/>
+<edge source="pass" target="change_owners"/>
+<edge source="pass" target="countenance"/>
+<edge source="pass" target="change_state"/>
+<edge source="pass" target="turn"/>
+<edge source="pass" target="exhaust"/>
+<edge source="pass" target="discharge"/>
+<edge source="pass" target="expel"/>
+<edge source="pass" target="eject"/>
+<edge source="pass" target="release"/>
+<edge source="fall_out" target="quarrel"/>
+<edge source="fall_out" target="dispute"/>
+<edge source="fall_out" target="scrap"/>
+<edge source="fall_out" target="argufy"/>
+<edge source="fall_out" target="altercate"/>
+<edge source="fall_out" target="result"/>
+<edge source="fall_out" target="ensue"/>
+<edge source="fall_out" target="issue"/>
+<edge source="fall_out" target="emerge"/>
+<edge source="fall_out" target="come_out"/>
+<edge source="fall_out" target="come_forth"/>
+<edge source="fall_out" target="go_forth"/>
+<edge source="fall_out" target="egress"/>
+<edge source="fall_out" target="exit"/>
+<edge source="fall_out" target="go_out"/>
+<edge source="fall_out" target="get_out"/>
+<edge source="fall_out" target="leave"/>
+<edge source="try" target="activity"/>
+<edge source="try" target="act"/>
+<edge source="try" target="move"/>
+<edge source="try" target="evaluate"/>
+<edge source="try" target="pass_judgment"/>
+<edge source="try" target="judge"/>
+<edge source="try" target="decide"/>
+<edge source="try" target="make_up_one's_mind"/>
+<edge source="try" target="determine"/>
+<edge source="try" target="consume"/>
+<edge source="try" target="ingest"/>
+<edge source="try" target="take_in"/>
+<edge source="try" target="take"/>
+<edge source="try" target="have"/>
+<edge source="try" target="probe"/>
+<edge source="try" target="examine"/>
+<edge source="try" target="pain"/>
+<edge source="try" target="anguish"/>
+<edge source="try" target="hurt"/>
+<edge source="try" target="afflict"/>
+<edge source="try" target="melt"/>
+<edge source="try" target="run"/>
+<edge source="try" target="melt_down"/>
+<edge source="try" target="wear"/>
+<edge source="try" target="put_on"/>
+<edge source="try" target="get_into"/>
+<edge source="try" target="don"/>
+<edge source="try" target="assume"/>
+<edge source="seek" target="movement"/>
+<edge source="seek" target="motion"/>
+<edge source="seek" target="desire"/>
+<edge source="seek" target="want"/>
+<edge source="seek" target="act"/>
+<edge source="seek" target="move"/>
+<edge source="seek" target="travel"/>
+<edge source="seek" target="go"/>
+<edge source="seek" target="locomote"/>
+<edge source="seek" target="request"/>
+<edge source="attempt" target="activity"/>
+<edge source="attempt" target="crime"/>
+<edge source="attempt" target="offense"/>
+<edge source="attempt" target="criminal_offense"/>
+<edge source="attempt" target="criminal_offence"/>
+<edge source="attempt" target="offence"/>
+<edge source="attempt" target="law-breaking"/>
+<edge source="attempt" target="act"/>
+<edge source="attempt" target="move"/>
+<edge source="attempt" target="initiate"/>
+<edge source="attempt" target="pioneer"/>
+<edge source="essay" target="writing"/>
+<edge source="essay" target="written_material"/>
+<edge source="essay" target="piece_of_writing"/>
+<edge source="essay" target="attempt"/>
+<edge source="essay" target="effort"/>
+<edge source="essay" target="endeavor"/>
+<edge source="essay" target="endeavour"/>
+<edge source="essay" target="try"/>
+<edge source="essay" target="act"/>
+<edge source="essay" target="move"/>
+<edge source="essay" target="evaluate"/>
+<edge source="essay" target="pass_judgment"/>
+<edge source="essay" target="judge"/>
+<edge source="assay" target="appraisal"/>
+<edge source="assay" target="assessment"/>
+<edge source="assay" target="substance"/>
+<edge source="assay" target="report"/>
+<edge source="assay" target="study"/>
+<edge source="assay" target="written_report"/>
+<edge source="assay" target="test"/>
+<edge source="assay" target="trial"/>
+<edge source="assay" target="run"/>
+<edge source="assay" target="analyze"/>
+<edge source="assay" target="analyse"/>
+<edge source="assay" target="examine"/>
+<edge source="assay" target="canvass"/>
+<edge source="assay" target="canvas"/>
+<edge source="assay" target="act"/>
+<edge source="assay" target="move"/>
+<edge source="social_group" target="group"/>
+<edge source="social_group" target="grouping"/>
+<edge source="group_action" target="act"/>
+<edge source="group_action" target="deed"/>
+<edge source="group_action" target="human_action"/>
+<edge source="group_action" target="human_activity"/>
+<edge source="group_action" target="event"/>
+<edge source="collection" target="group"/>
+<edge source="collection" target="grouping"/>
+<edge source="collection" target="publication"/>
+<edge source="collection" target="request"/>
+<edge source="collection" target="petition"/>
+<edge source="collection" target="postulation"/>
+<edge source="collecting" target="grouping"/>
+<edge source="collecting" target="store"/>
+<edge source="collecting" target="hive_away"/>
+<edge source="collecting" target="lay_in"/>
+<edge source="collecting" target="put_in"/>
+<edge source="collecting" target="salt_away"/>
+<edge source="collecting" target="stack_away"/>
+<edge source="collecting" target="stash_away"/>
+<edge source="collecting" target="take"/>
+<edge source="collecting" target="roll_up"/>
+<edge source="collecting" target="collect"/>
+<edge source="collecting" target="accumulate"/>
+<edge source="collecting" target="pile_up"/>
+<edge source="collecting" target="amass"/>
+<edge source="collecting" target="compile"/>
+<edge source="collecting" target="hoard"/>
+<edge source="collecting" target="get"/>
+<edge source="collecting" target="acquire"/>
+<edge source="assembling" target="grouping"/>
+<edge source="assembling" target="make"/>
+<edge source="assembling" target="create"/>
+<edge source="assembling" target="join"/>
+<edge source="assembling" target="bring_together"/>
+<edge source="assembling" target="interact"/>
+<edge source="aggregation" target="group"/>
+<edge source="aggregation" target="grouping"/>
+<edge source="sewing" target="handicraft"/>
+<edge source="sewing" target="needlework"/>
+<edge source="sewing" target="needlecraft"/>
+<edge source="sewing" target="fasten"/>
+<edge source="sewing" target="fix"/>
+<edge source="sewing" target="secure"/>
+<edge source="sewing" target="fashion"/>
+<edge source="sewing" target="forge"/>
+<edge source="stitchery" target="needlework"/>
+<edge source="stitchery" target="needlecraft"/>
+<edge source="interact" target="act"/>
+<edge source="interact" target="move"/>
+<edge source="increase" target="indefinite_quantity"/>
+<edge source="increase" target="change"/>
+<edge source="increase" target="alteration"/>
+<edge source="increase" target="modification"/>
+<edge source="increase" target="process"/>
+<edge source="increase" target="physical_process"/>
+<edge source="increase" target="amount"/>
+<edge source="increase" target="change_of_magnitude"/>
+<edge source="increase" target="change_magnitude"/>
+<edge source="increase" target="alter"/>
+<edge source="increase" target="modify"/>
+<edge source="reason" target="rational_motive"/>
+<edge source="reason" target="explanation"/>
+<edge source="reason" target="account"/>
+<edge source="reason" target="faculty"/>
+<edge source="reason" target="mental_faculty"/>
+<edge source="reason" target="module"/>
+<edge source="reason" target="sanity"/>
+<edge source="reason" target="saneness"/>
+<edge source="reason" target="justification"/>
+<edge source="reason" target="fact"/>
+<edge source="reason" target="think"/>
+<edge source="reason" target="cogitate"/>
+<edge source="reason" target="cerebrate"/>
+<edge source="reason" target="present"/>
+<edge source="reason" target="represent"/>
+<edge source="reason" target="lay_out"/>
+<edge source="reason_out" target="think"/>
+<edge source="reason_out" target="cogitate"/>
+<edge source="reason_out" target="cerebrate"/>
+<edge source="conclude" target="think"/>
+<edge source="conclude" target="cogitate"/>
+<edge source="conclude" target="cerebrate"/>
+<edge source="conclude" target="end"/>
+<edge source="conclude" target="terminate"/>
+<edge source="conclude" target="agree"/>
+<edge source="conclude" target="hold"/>
+<edge source="conclude" target="concur"/>
+<edge source="conclude" target="concord"/>
+<edge source="conclude" target="stop"/>
+<edge source="conclude" target="finish"/>
+<edge source="conclude" target="cease"/>
+<edge source="sew" target="fasten"/>
+<edge source="sew" target="fix"/>
+<edge source="sew" target="secure"/>
+<edge source="sew" target="fashion"/>
+<edge source="sew" target="forge"/>
+<edge source="run_up" target="roll_up"/>
+<edge source="run_up" target="collect"/>
+<edge source="run_up" target="accumulate"/>
+<edge source="run_up" target="pile_up"/>
+<edge source="run_up" target="amass"/>
+<edge source="run_up" target="compile"/>
+<edge source="run_up" target="hoard"/>
+<edge source="run_up" target="raise"/>
+<edge source="run_up" target="lift"/>
+<edge source="run_up" target="elevate"/>
+<edge source="run_up" target="get_up"/>
+<edge source="run_up" target="bring_up"/>
+<edge source="run_up" target="fasten"/>
+<edge source="run_up" target="fix"/>
+<edge source="run_up" target="secure"/>
+<edge source="run_up" target="owe"/>
+<edge source="run_up" target="sew"/>
+<edge source="run_up" target="tailor"/>
+<edge source="run_up" target="tailor-make"/>
+<edge source="sew_together" target="fasten"/>
+<edge source="sew_together" target="fix"/>
+<edge source="sew_together" target="secure"/>
+<edge source="stitch" target="sewing"/>
+<edge source="stitch" target="stitchery"/>
+<edge source="stitch" target="pain"/>
+<edge source="stitch" target="hurting"/>
+<edge source="stitch" target="fasten"/>
+<edge source="stitch" target="fix"/>
+<edge source="stitch" target="secure"/>
+<edge source="pull" target="propulsion"/>
+<edge source="pull" target="actuation"/>
+<edge source="pull" target="force"/>
+<edge source="pull" target="advantage"/>
+<edge source="pull" target="vantage"/>
+<edge source="pull" target="device"/>
+<edge source="pull" target="injury"/>
+<edge source="pull" target="hurt"/>
+<edge source="pull" target="harm"/>
+<edge source="pull" target="trauma"/>
+<edge source="pull" target="inhalation"/>
+<edge source="pull" target="inspiration"/>
+<edge source="pull" target="aspiration"/>
+<edge source="pull" target="intake"/>
+<edge source="pull" target="breathing_in"/>
+<edge source="pull" target="effort"/>
+<edge source="pull" target="elbow_grease"/>
+<edge source="pull" target="exertion"/>
+<edge source="pull" target="travail"/>
+<edge source="pull" target="sweat"/>
+<edge source="pull" target="move"/>
+<edge source="pull" target="displace"/>
+<edge source="pull" target="pull"/>
+<edge source="pull" target="draw"/>
+<edge source="pull" target="drive"/>
+<edge source="pull" target="act"/>
+<edge source="pull" target="remove"/>
+<edge source="pull" target="take"/>
+<edge source="pull" target="take_away"/>
+<edge source="pull" target="withdraw"/>
+<edge source="pull" target="injure"/>
+<edge source="pull" target="wound"/>
+<edge source="pull" target="row"/>
+<edge source="pull" target="rein"/>
+<edge source="pull" target="rein_in"/>
+<edge source="pull" target="tear"/>
+<edge source="pull" target="rupture"/>
+<edge source="pull" target="snap"/>
+<edge source="pull" target="bust"/>
+<edge source="pull" target="hit"/>
+<edge source="pull" target="strip"/>
+<edge source="pull" target="side"/>
+<edge source="search" target="activity"/>
+<edge source="search" target="investigation"/>
+<edge source="search" target="investigating"/>
+<edge source="search" target="operation"/>
+<edge source="search" target="higher_cognitive_process"/>
+<edge source="search" target="examination"/>
+<edge source="search" target="scrutiny"/>
+<edge source="search" target="examine"/>
+<edge source="search" target="see"/>
+<edge source="search" target="investigate"/>
+<edge source="search" target="look_into"/>
+<edge source="look_for" target="expect"/>
+<edge source="look_for" target="look"/>
+<edge source="look_for" target="await"/>
+<edge source="look_for" target="wait"/>
+<edge source="system" target="instrumentality"/>
+<edge source="system" target="instrumentation"/>
+<edge source="system" target="group"/>
+<edge source="system" target="grouping"/>
+<edge source="system" target="matter"/>
+<edge source="system" target="method"/>
+<edge source="system" target="structure"/>
+<edge source="system" target="body_part"/>
+<edge source="system" target="plan_of_action"/>
+<edge source="system" target="live_body"/>
+<edge source="system" target="orderliness"/>
+<edge source="system" target="methodicalness"/>
+<edge source="group" target="abstraction"/>
+<edge source="group" target="abstract_entity"/>
+<edge source="group" target="unit"/>
+<edge source="group" target="building_block"/>
+<edge source="group" target="set"/>
+<edge source="group" target="classify"/>
+<edge source="group" target="class"/>
+<edge source="group" target="sort"/>
+<edge source="group" target="assort"/>
+<edge source="group" target="sort_out"/>
+<edge source="group" target="separate"/>
+<edge source="group" target="meet"/>
+<edge source="group" target="gather"/>
+<edge source="group" target="assemble"/>
+<edge source="group" target="forgather"/>
+<edge source="group" target="foregather"/>
+<edge source="grouping" target="abstraction"/>
+<edge source="grouping" target="abstract_entity"/>
+<edge source="grouping" target="activity"/>
+<edge source="grouping" target="classification_system"/>
+<edge source="grouping" target="classify"/>
+<edge source="grouping" target="class"/>
+<edge source="grouping" target="sort"/>
+<edge source="grouping" target="assort"/>
+<edge source="grouping" target="sort_out"/>
+<edge source="grouping" target="separate"/>
+<edge source="grouping" target="meet"/>
+<edge source="grouping" target="gather"/>
+<edge source="grouping" target="assemble"/>
+<edge source="grouping" target="forgather"/>
+<edge source="grouping" target="foregather"/>
+<edge source="be" target="metallic_element"/>
+<edge source="be" target="metal"/>
+<edge source="be" target="typify"/>
+<edge source="be" target="symbolize"/>
+<edge source="be" target="symbolise"/>
+<edge source="be" target="stand_for"/>
+<edge source="be" target="represent"/>
+<edge source="be" target="take"/>
+<edge source="be" target="occupy"/>
+<edge source="be" target="use_up"/>
+<edge source="be" target="stay"/>
+<edge source="be" target="remain"/>
+<edge source="be" target="rest"/>
+<edge source="be" target="be"/>
+<edge source="fill" target="enough"/>
+<edge source="fill" target="sufficiency"/>
+<edge source="fill" target="material"/>
+<edge source="fill" target="stuff"/>
+<edge source="fill" target="change"/>
+<edge source="fill" target="alter"/>
+<edge source="fill" target="modify"/>
+<edge source="fill" target="change_state"/>
+<edge source="fill" target="turn"/>
+<edge source="fill" target="be"/>
+<edge source="fill" target="work"/>
+<edge source="fill" target="do_work"/>
+<edge source="fill" target="provide"/>
+<edge source="fill" target="supply"/>
+<edge source="fill" target="ply"/>
+<edge source="fill" target="cater"/>
+<edge source="fill" target="hire"/>
+<edge source="fill" target="engage"/>
+<edge source="fill" target="employ"/>
+<edge source="fill" target="eat"/>
+<edge source="fill" target="consume"/>
+<edge source="fill" target="ingest"/>
+<edge source="fill" target="take_in"/>
+<edge source="fill" target="take"/>
+<edge source="fill" target="have"/>
+<edge source="fill" target="repair"/>
+<edge source="fill" target="mend"/>
+<edge source="fill" target="fix"/>
+<edge source="fill" target="bushel"/>
+<edge source="fill" target="doctor"/>
+<edge source="fill" target="furbish_up"/>
+<edge source="fill" target="restore"/>
+<edge source="fill" target="touch_on"/>
+<edge source="fill_up" target="change"/>
+<edge source="fill_up" target="alter"/>
+<edge source="fill_up" target="modify"/>
+<edge source="fill_up" target="change_state"/>
+<edge source="fill_up" target="turn"/>
+<edge source="fill_up" target="fill"/>
+<edge source="fill_up" target="eat"/>
+<edge source="make_full" target="change"/>
+<edge source="make_full" target="alter"/>
+<edge source="make_full" target="modify"/>
+<edge source="worry" target="negative_stimulus"/>
+<edge source="worry" target="anxiety"/>
+<edge source="worry" target="mind"/>
+<edge source="worry" target="perturb"/>
+<edge source="worry" target="unhinge"/>
+<edge source="worry" target="disquiet"/>
+<edge source="worry" target="trouble"/>
+<edge source="worry" target="cark"/>
+<edge source="worry" target="distract"/>
+<edge source="worry" target="disorder"/>
+<edge source="worry" target="incise"/>
+<edge source="worry" target="rub"/>
+<edge source="care" target="work"/>
+<edge source="care" target="judiciousness"/>
+<edge source="care" target="anxiety"/>
+<edge source="care" target="predicament"/>
+<edge source="care" target="quandary"/>
+<edge source="care" target="plight"/>
+<edge source="care" target="protection"/>
+<edge source="care" target="repair"/>
+<edge source="care" target="fix"/>
+<edge source="care" target="fixing"/>
+<edge source="care" target="fixture"/>
+<edge source="care" target="mend"/>
+<edge source="care" target="mending"/>
+<edge source="care" target="reparation"/>
+<edge source="care" target="feel_for"/>
+<edge source="care" target="pity"/>
+<edge source="care" target="compassionate"/>
+<edge source="care" target="condole_with"/>
+<edge source="care" target="sympathize_with"/>
+<edge source="care" target="help"/>
+<edge source="care" target="assist"/>
+<edge source="care" target="aid"/>
+<edge source="care" target="desire"/>
+<edge source="care" target="want"/>
+<edge source="care" target="control"/>
+<edge source="care" target="command"/>
+<edge source="care" target="mind"/>
+<edge source="repeat" target="periodic_event"/>
+<edge source="repeat" target="recurrent_event"/>
+<edge source="repeat" target="tell"/>
+<edge source="repeat" target="reproduce"/>
+<edge source="repeat" target="happen"/>
+<edge source="repeat" target="hap"/>
+<edge source="repeat" target="go_on"/>
+<edge source="repeat" target="pass_off"/>
+<edge source="repeat" target="occur"/>
+<edge source="repeat" target="pass"/>
+<edge source="repeat" target="fall_out"/>
+<edge source="repeat" target="come_about"/>
+<edge source="repeat" target="take_place"/>
+<edge source="repeat" target="utter"/>
+<edge source="repeat" target="emit"/>
+<edge source="repeat" target="let_out"/>
+<edge source="repeat" target="let_loose"/>
+<edge source="repeat" target="act"/>
+<edge source="repeat" target="move"/>
+<edge source="repeat" target="play"/>
+<edge source="repeat" target="spiel"/>
+<edge source="reiterate" target="tell"/>
+<edge source="ingeminate" target="tell"/>
+<edge source="iterate" target="tell"/>
+<edge source="iterate" target="recur"/>
+<edge source="iterate" target="repeat"/>
+<edge source="restate" target="tell"/>
+<edge source="retell" target="re-create"/>
+<edge source="retell" target="tell"/>
+<edge source="experience" target="education"/>
+<edge source="experience" target="content"/>
+<edge source="experience" target="cognitive_content"/>
+<edge source="experience" target="mental_object"/>
+<edge source="experience" target="happening"/>
+<edge source="experience" target="occurrence"/>
+<edge source="experience" target="occurrent"/>
+<edge source="experience" target="natural_event"/>
+<edge source="experience" target="undergo"/>
+<edge source="experience" target="experience"/>
+<edge source="experience" target="see"/>
+<edge source="experience" target="go_through"/>
+<edge source="experience" target="change"/>
+<edge source="see" target="seat"/>
+<edge source="see" target="perceive"/>
+<edge source="see" target="comprehend"/>
+<edge source="see" target="experience"/>
+<edge source="see" target="see"/>
+<edge source="see" target="go_through"/>
+<edge source="see" target="imagine"/>
+<edge source="see" target="conceive_of"/>
+<edge source="see" target="ideate"/>
+<edge source="see" target="envisage"/>
+<edge source="see" target="think"/>
+<edge source="see" target="believe"/>
+<edge source="see" target="consider"/>
+<edge source="see" target="conceive"/>
+<edge source="see" target="watch"/>
+<edge source="see" target="verify"/>
+<edge source="see" target="visit"/>
+<edge source="see" target="call_in"/>
+<edge source="see" target="call"/>
+<edge source="see" target="tour"/>
+<edge source="see" target="care"/>
+<edge source="see" target="give_care"/>
+<edge source="see" target="receive"/>
+<edge source="see" target="take_in"/>
+<edge source="see" target="invite"/>
+<edge source="see" target="consort"/>
+<edge source="see" target="associate"/>
+<edge source="see" target="affiliate"/>
+<edge source="see" target="assort"/>
+<edge source="see" target="debate"/>
+<edge source="see" target="moot"/>
+<edge source="see" target="turn_over"/>
+<edge source="see" target="deliberate"/>
+<edge source="see" target="detect"/>
+<edge source="see" target="observe"/>
+<edge source="see" target="find"/>
+<edge source="see" target="discover"/>
+<edge source="see" target="notice"/>
+<edge source="see" target="undergo"/>
+<edge source="see" target="accompany"/>
+<edge source="see" target="bet"/>
+<edge source="see" target="wager"/>
+<edge source="see" target="play"/>
+<edge source="see" target="understand"/>
+<edge source="go_through" target="undergo"/>
+<edge source="go_through" target="work"/>
+<edge source="go_through" target="travel"/>
+<edge source="go_through" target="go"/>
+<edge source="go_through" target="move"/>
+<edge source="go_through" target="locomote"/>
+<edge source="go_through" target="eat"/>
+<edge source="go_through" target="complete"/>
+<edge source="go_through" target="finish"/>
+<edge source="instrumentality" target="unit"/>
+<edge source="instrumentality" target="social_unit"/>
+<edge source="instrumentality" target="utility"/>
+<edge source="instrumentality" target="usefulness"/>
+<edge source="instrumentality" target="artifact"/>
+<edge source="instrumentality" target="artefact"/>
+<edge source="instrumentation" target="artifact"/>
+<edge source="instrumentation" target="artefact"/>
+<edge source="instrumentation" target="implementation"/>
+<edge source="instrumentation" target="effectuation"/>
+<edge source="instrumentation" target="musical_arrangement"/>
+<edge source="instrumentation" target="arrangement"/>
+<edge source="instrumentation" target="arranging"/>
+<edge source="instrumentation" target="transcription"/>
+<edge source="expressive_style" target="communication"/>
+<edge source="style" target="property"/>
+<edge source="style" target="communication"/>
+<edge source="style" target="kind"/>
+<edge source="style" target="sort"/>
+<edge source="style" target="form"/>
+<edge source="style" target="variety"/>
+<edge source="style" target="taste"/>
+<edge source="style" target="appreciation"/>
+<edge source="style" target="discernment"/>
+<edge source="style" target="perceptiveness"/>
+<edge source="style" target="reproductive_structure"/>
+<edge source="style" target="direction"/>
+<edge source="style" target="instruction"/>
+<edge source="style" target="elegance"/>
+<edge source="style" target="tool"/>
+<edge source="style" target="process"/>
+<edge source="style" target="outgrowth"/>
+<edge source="style" target="appendage"/>
+<edge source="style" target="name"/>
+<edge source="style" target="call"/>
+<edge source="style" target="make"/>
+<edge source="style" target="create"/>
+<edge source="style" target="write"/>
+<edge source="maneuver" target="operation"/>
+<edge source="maneuver" target="military_operation"/>
+<edge source="maneuver" target="plan_of_action"/>
+<edge source="maneuver" target="motion"/>
+<edge source="maneuver" target="movement"/>
+<edge source="maneuver" target="move"/>
+<edge source="maneuver" target="evasion"/>
+<edge source="maneuver" target="control"/>
+<edge source="maneuver" target="command"/>
+<edge source="maneuver" target="act"/>
+<edge source="maneuver" target="go"/>
+<edge source="manoeuvre" target="plan_of_action"/>
+<edge source="manoeuvre" target="operation"/>
+<edge source="manoeuvre" target="military_operation"/>
+<edge source="manoeuvre" target="motion"/>
+<edge source="manoeuvre" target="movement"/>
+<edge source="manoeuvre" target="move"/>
+<edge source="manoeuvre" target="evasion"/>
+<edge source="manoeuvre" target="act"/>
+<edge source="manoeuvre" target="control"/>
+<edge source="manoeuvre" target="command"/>
+<edge source="manoeuvre" target="go"/>
+<edge source="tactical_maneuver" target="move"/>
+<edge source="tactical_manoeuvre" target="move"/>
+<edge source="design" target="creating_by_mental_acts"/>
+<edge source="design" target="arrangement"/>
+<edge source="design" target="organization"/>
+<edge source="design" target="organisation"/>
+<edge source="design" target="system"/>
+<edge source="design" target="plan"/>
+<edge source="design" target="program"/>
+<edge source="design" target="programme"/>
+<edge source="design" target="decoration"/>
+<edge source="design" target="ornament"/>
+<edge source="design" target="ornamentation"/>
+<edge source="design" target="goal"/>
+<edge source="design" target="end"/>
+<edge source="design" target="sketch"/>
+<edge source="design" target="study"/>
+<edge source="design" target="creativity"/>
+<edge source="design" target="creativeness"/>
+<edge source="design" target="creative_thinking"/>
+<edge source="design" target="create_by_mental_act"/>
+<edge source="design" target="create_mentally"/>
+<edge source="design" target="intend"/>
+<edge source="design" target="destine"/>
+<edge source="design" target="designate"/>
+<edge source="design" target="specify"/>
+<edge source="design" target="create"/>
+<edge source="design" target="make"/>
+<edge source="design" target="gestate"/>
+<edge source="design" target="conceive"/>
+<edge source="design" target="conceptualize"/>
+<edge source="design" target="conceptualise"/>
+<edge source="design" target="mean"/>
+<edge source="design" target="think"/>
+<edge source="pattern" target="structure"/>
+<edge source="pattern" target="activity"/>
+<edge source="pattern" target="decoration"/>
+<edge source="pattern" target="ornament"/>
+<edge source="pattern" target="ornamentation"/>
+<edge source="pattern" target="practice"/>
+<edge source="pattern" target="exemplar"/>
+<edge source="pattern" target="example"/>
+<edge source="pattern" target="model"/>
+<edge source="pattern" target="good_example"/>
+<edge source="pattern" target="plan"/>
+<edge source="pattern" target="program"/>
+<edge source="pattern" target="programme"/>
+<edge source="pattern" target="path"/>
+<edge source="pattern" target="route"/>
+<edge source="pattern" target="itinerary"/>
+<edge source="pattern" target="graph"/>
+<edge source="pattern" target="graphical_record"/>
+<edge source="pattern" target="imitate"/>
+<edge source="pattern" target="copy"/>
+<edge source="pattern" target="simulate"/>
+<edge source="pattern" target="match"/>
+<edge source="pattern" target="fit"/>
+<edge source="pattern" target="correspond"/>
+<edge source="pattern" target="check"/>
+<edge source="pattern" target="jibe"/>
+<edge source="pattern" target="gibe"/>
+<edge source="pattern" target="tally"/>
+<edge source="pattern" target="agree"/>
+<edge source="figure" target="illustration"/>
+<edge source="figure" target="body"/>
+<edge source="figure" target="organic_structure"/>
+<edge source="figure" target="physical_structure"/>
+<edge source="figure" target="integer"/>
+<edge source="figure" target="whole_number"/>
+<edge source="figure" target="model"/>
+<edge source="figure" target="simulation"/>
+<edge source="figure" target="important_person"/>
+<edge source="figure" target="influential_person"/>
+<edge source="figure" target="personage"/>
+<edge source="figure" target="shape"/>
+<edge source="figure" target="form"/>
+<edge source="figure" target="sum"/>
+<edge source="figure" target="sum_of_money"/>
+<edge source="figure" target="amount"/>
+<edge source="figure" target="amount_of_money"/>
+<edge source="figure" target="impression"/>
+<edge source="figure" target="effect"/>
+<edge source="figure" target="rhetorical_device"/>
+<edge source="figure" target="percept"/>
+<edge source="figure" target="perception"/>
+<edge source="figure" target="perceptual_experience"/>
+<edge source="figure" target="decoration"/>
+<edge source="figure" target="ornament"/>
+<edge source="figure" target="ornamentation"/>
+<edge source="figure" target="maneuver"/>
+<edge source="figure" target="manoeuvre"/>
+<edge source="figure" target="play"/>
+<edge source="figure" target="evaluate"/>
+<edge source="figure" target="pass_judgment"/>
+<edge source="figure" target="judge"/>
+<edge source="figure" target="be"/>
+<edge source="figure" target="imagine"/>
+<edge source="figure" target="conceive_of"/>
+<edge source="figure" target="ideate"/>
+<edge source="figure" target="envisage"/>
+<edge source="figure" target="reason"/>
+<edge source="figure" target="grok"/>
+<edge source="figure" target="get_the_picture"/>
+<edge source="figure" target="comprehend"/>
+<edge source="figure" target="savvy"/>
+<edge source="figure" target="dig"/>
+<edge source="figure" target="grasp"/>
+<edge source="figure" target="compass"/>
+<edge source="figure" target="apprehend"/>
+<edge source="emblem" target="design"/>
+<edge source="emblem" target="pattern"/>
+<edge source="emblem" target="figure"/>
+<edge source="emblem" target="symbol"/>
+<edge source="emblem" target="symbolization"/>
+<edge source="emblem" target="symbolisation"/>
+<edge source="emblem" target="symbolic_representation"/>
+<edge source="attribute" target="concept"/>
+<edge source="attribute" target="conception"/>
+<edge source="attribute" target="construct"/>
+<edge source="attribute" target="abstraction"/>
+<edge source="attribute" target="abstract_entity"/>
+<edge source="attribute" target="evaluate"/>
+<edge source="attribute" target="pass_judgment"/>
+<edge source="attribute" target="judge"/>
+<edge source="location" target="object"/>
+<edge source="location" target="physical_object"/>
+<edge source="location" target="activity"/>
+<edge source="location" target="determination"/>
+<edge source="location" target="finding"/>
+<edge source="location" target="workplace"/>
+<edge source="location" target="work"/>
+<edge source="amorphous_shape" target="shape"/>
+<edge source="amorphous_shape" target="form"/>
+<edge source="country" target="political_unit"/>
+<edge source="country" target="political_entity"/>
+<edge source="country" target="administrative_district"/>
+<edge source="country" target="administrative_division"/>
+<edge source="country" target="territorial_division"/>
+<edge source="country" target="people"/>
+<edge source="country" target="geographical_area"/>
+<edge source="country" target="geographic_area"/>
+<edge source="country" target="geographical_region"/>
+<edge source="country" target="geographic_region"/>
+<edge source="country" target="region"/>
+<edge source="infinite" target="attribute"/>
+<edge source="character" target="imaginary_being"/>
+<edge source="character" target="imaginary_creature"/>
+<edge source="character" target="property"/>
+<edge source="character" target="attribute"/>
+<edge source="character" target="dimension"/>
+<edge source="character" target="trait"/>
+<edge source="character" target="portrayal"/>
+<edge source="character" target="characterization"/>
+<edge source="character" target="enactment"/>
+<edge source="character" target="personation"/>
+<edge source="character" target="adult"/>
+<edge source="character" target="grownup"/>
+<edge source="character" target="repute"/>
+<edge source="character" target="reputation"/>
+<edge source="character" target="recommendation"/>
+<edge source="character" target="testimonial"/>
+<edge source="character" target="good_word"/>
+<edge source="character" target="written_symbol"/>
+<edge source="character" target="printed_symbol"/>
+<edge source="character" target="scratch"/>
+<edge source="character" target="engrave"/>
+<edge source="character" target="grave"/>
+<edge source="character" target="inscribe"/>
+<edge source="grapheme" target="written_symbol"/>
+<edge source="grapheme" target="printed_symbol"/>
+<edge source="graphic_symbol" target="written_symbol"/>
+<edge source="graphic_symbol" target="printed_symbol"/>
+<edge source="time_interval" target="measure"/>
+<edge source="time_interval" target="quantity"/>
+<edge source="time_interval" target="amount"/>
+<edge source="interval" target="measure"/>
+<edge source="interval" target="quantity"/>
+<edge source="interval" target="amount"/>
+<edge source="interval" target="set"/>
+<edge source="interval" target="distance"/>
+<edge source="interval" target="musical_notation"/>
+<edge source="expanse" target="scope"/>
+<edge source="expanse" target="range"/>
+<edge source="expanse" target="reach"/>
+<edge source="expanse" target="orbit"/>
+<edge source="expanse" target="compass"/>
+<edge source="expanse" target="ambit"/>
+<edge source="expanse" target="extent"/>
+<edge source="expanse" target="space"/>
+<edge source="surface_area" target="extent"/>
+<edge source="type" target="kind"/>
+<edge source="type" target="sort"/>
+<edge source="type" target="form"/>
+<edge source="type" target="variety"/>
+<edge source="type" target="adult"/>
+<edge source="type" target="grownup"/>
+<edge source="type" target="taxonomic_group"/>
+<edge source="type" target="taxonomic_category"/>
+<edge source="type" target="taxon"/>
+<edge source="type" target="character"/>
+<edge source="type" target="grapheme"/>
+<edge source="type" target="graphic_symbol"/>
+<edge source="type" target="symbol"/>
+<edge source="type" target="block"/>
+<edge source="type" target="write"/>
+<edge source="type" target="identify"/>
+</graph></graphml>
