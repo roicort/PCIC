@@ -32,8 +32,8 @@ class BinaryLogisticRegression:
             predictions = self.sigmoid(linear_model)
 
             # Gradientes
-            dw = (1 / X.shape[0]) * np.dot(X.T, (predictions - y))
-            db = (1 / X.shape[0]) * np.sum(predictions - y)
+            dw = (1 / self.instances) * np.dot(X.T, (predictions - y))
+            db = (1 / self.instances) * np.sum(predictions - y)
 
             # Actualización de parámetros
             self.weights -= self.lr * dw
@@ -51,8 +51,8 @@ class BinaryLogisticRegression:
             predictions = self.sigmoid(linear_model)
 
             # Gradientes con regularización L2
-            dw = (1 / X.shape[0]) * np.dot(X.T, (predictions - y)) + (alpha / X.shape[0]) * self.weights
-            db = (1 / X.shape[0]) * np.sum(predictions - y)
+            dw = (1 / self.instances) * np.dot(X.T, (predictions - y)) + (alpha / self.instances) * self.weights
+            db = (1 / self.instances) * np.sum(predictions - y)
 
             # Actualización de parámetros
             self.weights -= lr * dw
@@ -63,7 +63,6 @@ class BinaryLogisticRegression:
         Ajusta el modelo a los datos
         """
         self.instances = X.shape[0]  # Número de instancias
-        self.features = X.shape[1]  # Número de características 
         self.classes = np.unique(y)  # Obtiene las clases únicas
 
         self.weights = np.zeros(X.shape[1])
