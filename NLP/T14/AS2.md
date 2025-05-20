@@ -59,7 +59,7 @@ El gráfico obtenido muestra una **separación clara** entre los documentos de a
 
 ---
 
-## 4. Análisis e Interpretación
+## 4. Análisis
 
 El análisis revela **una diferenciación estilística significativa** entre ambos autores. Esta separación sugiere que los rasgos seleccionados permiten identificar de manera robusta diferencias de estilo como:
 
