@@ -1,0 +1,16 @@
+[project]
+name = "NLP"
+version = "0.1.0"
+description = "Tareas y ejercicios de NLP"
+authors = [
+    { name = "Rodrigo Cortez", email = "rodrigo.cortez@example.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "ipykernel>=6.29.5",
+    "lxml>=5.4.0",
+    "markdown>=3.8",
+    "nltk>=3.9.1",
+    "notebook>=7.4.2",
+]
