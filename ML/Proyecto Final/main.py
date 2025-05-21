@@ -9,10 +9,8 @@ def descargar_series_tiempo(coords_list, variable="v"):
     dct = dctools()
     dfs = []
     for lat, lon in coords_list:
-        # OJO: El widget original usa [lon, lat]
         ins3xr, ds_point, point_tilexy = dct.get_timeseries_at_point([lon, lat], "4326", variables=[variable])
         if ins3xr is not None and point_tilexy is not None:
-            # Selecciona la celda más cercana, igual que el widget
             export = ins3xr[
                 ["v", "v_error", "vx", "vx_error", "vy", "vy_error", "date_dt", "satellite_img1", "mission_img1"]
             ].sel(x=point_tilexy[0], y=point_tilexy[1], method="nearest")
@@ -26,11 +24,15 @@ def descargar_series_tiempo(coords_list, variable="v"):
         return pd.DataFrame()
 
 st.title("Descarga de series de tiempo ITS_LIVE")
-st.write("Haz clic en el mapa para seleccionar un punto. Luego grafica los datos.")
+st.write("Haz clic en el mapa para seleccionar un punto. O usa los campos manuales para mover el marcador.")
 
 # Estado para el punto seleccionado
 if "coords" not in st.session_state:
     st.session_state.coords = None
+if "manual_lat" not in st.session_state:
+    st.session_state.manual_lat = 70.0
+if "manual_lon" not in st.session_state:
+    st.session_state.manual_lon = -45.0
 
 # Mapa base
 m = folium.Map(location=[70, -45], zoom_start=3)
@@ -72,32 +74,57 @@ folium.LayerControl().add_to(m)
 # Mostrar mapa en Streamlit
 map_data = st_folium(m, width=700, height=500)
 
-# Obtener coordenada seleccionada por clic
+# Si se selecciona un punto en el mapa, actualiza los inputs y el marcador
 if map_data and map_data["last_clicked"]:
     lat = map_data["last_clicked"]["lat"]
     lon = map_data["last_clicked"]["lng"]
+    # Actualiza los valores ANTES de crear los widgets
     st.session_state.coords = (lat, lon)
+    st.session_state.manual_lat = lat
+    st.session_state.manual_lon = lon
     st.rerun()
 
-# Permitir agregar manualmente el punto
-manual = st.text_input("Agregar coordenada manualmente (lat,lon):")
-if manual:
-    try:
-        lat, lon = map(float, manual.split(","))
-        st.session_state.coords = (lat, lon)
-        st.rerun()
-    except:
-        st.warning("Formato incorrecto. Usa lat,lon")
+def actualizar_coords():
+    st.session_state.coords = (st.session_state.manual_lat, st.session_state.manual_lon)
+    st.rerun()
 
-# Botón para limpiar punto
+# Detectar si se presionó el botón antes de los widgets
 if st.button("Limpiar punto"):
     st.session_state.coords = None
+    st.session_state.manual_lat = 0.0
+    st.session_state.manual_lon = 0.0
     st.rerun()
 
-# Mostrar punto seleccionado
-if st.session_state.coords:
-    lat, lon = st.session_state.coords
-    st.write(f"Punto seleccionado: ({lat:.4f}, {lon:.4f})")
+# Inputs numéricos para latitud y longitud sincronizados y reactivos
+col1, col2 = st.columns(2)
+with col1:
+    st.number_input(
+        "Latitud",
+        min_value=-90.0,
+        max_value=90.0,
+        format="%.6f",
+        key="manual_lat",
+        on_change=actualizar_coords
+    )
+with col2:
+    st.number_input(
+        "Longitud",
+        min_value=-180.0,
+        max_value=180.0,
+        format="%.6f",
+        key="manual_lon",
+        on_change=actualizar_coords
+    )
+
+# Selector de intervalo de días
+st.write("Selecciona el intervalo de separación de días entre imágenes satelitales:")
+min_dt, max_dt = st.slider(
+    "Intervalo (días)",
+    min_value=0,
+    max_value=365,
+    value=(5, 90),
+    step=1
+)
 
 # Graficar datos
 if st.session_state.coords and st.button("Graficar serie de tiempo"):
@@ -106,15 +133,26 @@ if st.session_state.coords and st.button("Graficar serie de tiempo"):
     if df.empty:
         st.warning("No se encontraron datos para la coordenada seleccionada.")
     else:
-        print(df)
         df["mid_date"] = pd.to_datetime(df["mid_date"])
-        df = df.sort_values("mid_date")
-        fig = px.line(
-            df,
-            x="mid_date",
-            y="v",
-            labels={"v": "Velocidad (m/año)", "mid_date": "Fecha"},
-            title="Serie de tiempo de velocidad ITS_LIVE"
-        )
-        st.plotly_chart(fig, use_container_width=True)
-        st.dataframe(df)
+
+        # Convertir date_dt a días (si es timedelta)
+        if pd.api.types.is_timedelta64_dtype(df["date_dt"]):
+            df["dias"] = df["date_dt"].dt.total_seconds() / 86400
+        else:
+            df["dias"] = df["date_dt"]
+
+        # Filtrar por intervalo de días
+        df_filtrado = df[(df["dias"] >= min_dt) & (df["dias"] <= max_dt)]
+        df_filtrado = df_filtrado.sort_values("mid_date")
+        if df_filtrado.empty:
+            st.warning("No hay datos en el intervalo seleccionado.")
+        else:
+            fig = px.line(
+                df_filtrado,
+                x="mid_date",
+                y="v",
+                labels={"v": "Velocidad (m/año)", "mid_date": "Fecha"},
+                title=f"Serie de tiempo de velocidad ITS_LIVE ({min_dt}-{max_dt} días)"
+            )
+            st.plotly_chart(fig, use_container_width=True)
+            st.dataframe(df_filtrado)
