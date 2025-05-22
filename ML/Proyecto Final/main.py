@@ -3,6 +3,7 @@ from streamlit_folium import st_folium
 import folium
 import pandas as pd
 import plotly.express as px
+
 from its_live.datacube_tools import DATACUBETOOLS as dctools
 
 def descargar_series_tiempo(coords_list, variable="v"):
@@ -23,7 +24,7 @@ def descargar_series_tiempo(coords_list, variable="v"):
     else:
         return pd.DataFrame()
 
-st.title("Descarga de series de tiempo ITS_LIVE")
+st.title("ITS_LIVE! Predicción de series de tiempo de Velocidad de Glaciares")
 st.write("Haz clic en el mapa para seleccionar un punto. O usa los campos manuales para mover el marcador.")
 
 # Estado para el punto seleccionado
@@ -88,13 +89,6 @@ def actualizar_coords():
     st.session_state.coords = (st.session_state.manual_lat, st.session_state.manual_lon)
     st.rerun()
 
-# Detectar si se presionó el botón antes de los widgets
-if st.button("Limpiar punto"):
-    st.session_state.coords = None
-    st.session_state.manual_lat = 0.0
-    st.session_state.manual_lon = 0.0
-    st.rerun()
-
 # Inputs numéricos para latitud y longitud sincronizados y reactivos
 col1, col2 = st.columns(2)
 with col1:
@@ -130,6 +124,7 @@ min_dt, max_dt = st.slider(
 if st.session_state.coords and st.button("Graficar serie de tiempo"):
     with st.spinner("Descargando y graficando datos..."):
         df = descargar_series_tiempo([st.session_state.coords])
+        df = df.dropna(subset=["v"]) 
     if df.empty:
         st.warning("No se encontraron datos para la coordenada seleccionada.")
     else:
@@ -147,12 +142,15 @@ if st.session_state.coords and st.button("Graficar serie de tiempo"):
         if df_filtrado.empty:
             st.warning("No hay datos en el intervalo seleccionado.")
         else:
-            fig = px.line(
+            # Gráfico de puntos
+            fig = px.scatter(
                 df_filtrado,
                 x="mid_date",
                 y="v",
                 labels={"v": "Velocidad (m/año)", "mid_date": "Fecha"},
-                title=f"Serie de tiempo de velocidad ITS_LIVE ({min_dt}-{max_dt} días)"
+                title=f"Serie de tiempo de velocidad ITS_LIVE ({min_dt}-{max_dt} días)",
+                trendline="lowess"
             )
+
             st.plotly_chart(fig, use_container_width=True)
             st.dataframe(df_filtrado)
