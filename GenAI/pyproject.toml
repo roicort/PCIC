@@ -1,0 +1,21 @@
+[project]
+name = "GenAI"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "docopt",
+    "pypng",
+    "seaborn",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "protobuf",
+    "h5py",
+    "tqdm",
+    "joblib",
+    "jupyterlab",
+    "tensorflow",
+    "tensorflow-metal",
+]
