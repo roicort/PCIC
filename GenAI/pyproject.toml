@@ -16,5 +16,7 @@ dependencies = [
     "tqdm",
     "joblib",
     "jupyterlab",
-    "tensorflow",
+    "scipy>=1.16.1",
+    "tensorflow-metal>=1.2.0",
+    "tensorflow>=2.18.1",
 ]
