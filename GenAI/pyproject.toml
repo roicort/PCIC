@@ -26,6 +26,7 @@ dependencies = [
     "pytorch-lightning>=2.5.2",
     "click>=8.3.0",
     "huggingface-hub>=1.0.1",
+    "music21>=9.9.1",
 ]
 
 [tool.uv.sources]
