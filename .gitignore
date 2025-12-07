@@ -1,2 +1,5 @@
 
 .DS_Store
+/GenAI/MusicTransformer/data/bach-cello
+/GenAI/MusicTransformer/app_tmp
+/GenAI/MusicTransformer/output
