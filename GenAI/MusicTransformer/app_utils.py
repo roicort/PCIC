@@ -175,7 +175,8 @@ class MusicGenerator:
             if new_note is not None:
                 midi_stream.append(new_note)
 
-        while len(start_note_tokens) < max_tokens:
+        generated = 0
+        while generated < max_tokens:
             x1 = np.array([start_note_tokens])
             x2 = np.array([start_duration_tokens])
             notes, durations = self.model.predict([x1, x2], verbose=0)
@@ -221,6 +222,8 @@ class MusicGenerator:
             start_duration_tokens.append(sample_duration_idx)
             start_notes.append(sample_note)
             start_durations.append(sample_duration)
+
+            generated += 1
 
             if sample_note == "START":
                 break

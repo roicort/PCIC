@@ -3,9 +3,7 @@
 import os
 import sys
 import gradio as gr
-from regex import T
 import tensorflow as tf
-from torch import seed
 from transformer_utils import (
     load_parsed_files,
 )
@@ -86,7 +84,11 @@ music_generator = MusicGenerator(notes_vocab, durations_vocab, model)
 
 # Gradio UI
 
-def generate_music(seed_note, seed_duration, length, temperature):
+def generate_music(seed_note, seed_duration, length, temperature, seed=42):
+    seed = int(seed)
+    random.seed(seed)
+    tf.random.set_seed(seed)
+    
     info = music_generator.generate(
         seed_note.split(),
         seed_duration.split(),
@@ -115,9 +117,7 @@ def generate_music(seed_note, seed_duration, length, temperature):
 
     return musicimg, midipath, midi_stream_repr
 
-# Función para randomizar seed notes y durations
 def randomize_seeds():
-    # Selecciona escala y tempo aleatorios del vocabulario de notas
     escala = random.choice([n for n in notes_vocab if 'major' in n or 'minor' in n]) if any('major' in n or 'minor' in n for n in notes_vocab) else 'G:major'
     tempo = random.choice([n for n in notes_vocab if 'TS' in n]) if any('TS' in n for n in notes_vocab) else '4/4TS'
     notas_puras = [n for n in notes_vocab if 'major' not in n and 'minor' not in n and 'TS' not in n and n != 'START']
@@ -130,27 +130,56 @@ def randomize_seeds():
 with gr.Blocks() as demo:
     gr.Markdown("# Music Transformer Generator\nGenera música utilizando un modelo Transformer pre-entrenado.")
     with gr.Row():
-        seed_note = gr.Textbox(label="Seed Note", value="START G:major 4/4TS")
-        seed_duration = gr.Textbox(label="Seed Duration", value="0.0 0.0 0.0")
-        random_btn = gr.Button("Randomize Seeds")
+        seed_note = gr.Textbox(label="Seed Note", value="START G:major 4/4TS", lines=10, max_lines=10, scale=1)
+        seed_duration = gr.Textbox(label="Seed Duration", value="0.0 0.0 0.0", lines=10, max_lines=10, scale=1)
+        seed_random = gr.Textbox(label="Random Seed", value="42", lines=1, max_lines=1)
+        load_midi = gr.File(label="Cargar archivo MIDI para extraer semillas", file_types=['.mid', '.midi'], scale=1)
+    random_btn = gr.Button("Randomize Seeds")
     length = gr.Slider(label="Length (tokens)", minimum=10, maximum=500, step=10, value=100)
     temperature = gr.Slider(label="Temperature", minimum=0.1, maximum=1.0, step=0.1, value=0.5)
     with gr.Row():
-        music_img = gr.Image(label="Generated Music Sheet")
-        midi_file = gr.File(label="Descargar MIDI")
-        midi_stream_repr = gr.Textbox(label="MIDI Stream Representation")
-
+        music_img = gr.Image(label="Generated Music Sheet", type="pil", interactive=False, scale=1)
+        midi_file = gr.File(label="Descargar MIDI", scale=1)
+        midi_stream_repr = gr.Textbox(label="MIDI Stream Representation", lines=10, max_lines=10, scale=1)
     generate_btn = gr.Button("Generar Música")
 
     def update_seeds():
         n, d = randomize_seeds()
-        return n, d
+        s = str(random.randint(1, 10000))
+        return n, d, s
 
-    random_btn.click(update_seeds, [], [seed_note, seed_duration])
+    def parse_midi_file(midi_file):
+        from music21 import converter
+        if midi_file is None:
+            return gr.update(), gr.update()
+        # music21 puede leer desde ruta o buffer
+        try:
+            score = converter.parse(midi_file.name)
+        except Exception:
+            return gr.update(), gr.update()
+        notes = []
+        durations = []
+        for el in score.flat.notes:
+            if el.isNote:
+                notes.append(str(el.pitch))
+                durations.append(str(el.quarterLength))
+            elif el.isChord:
+                notes.append('.'.join(str(n) for n in el.pitches))
+                durations.append(str(el.quarterLength))
+        seed_notes = 'START ' + ' '.join(notes)
+        seed_durations = '0.0 ' + ' '.join(durations)
+        return seed_notes, seed_durations
+
+    random_btn.click(update_seeds, [], [seed_note, seed_duration, seed_random])
+    load_midi.change(
+        parse_midi_file,
+        [load_midi],
+        [seed_note, seed_duration]
+    )
     generate_btn.click(
         generate_music,
-        [seed_note, seed_duration, length, temperature],
+        [seed_note, seed_duration, length, temperature, seed_random],
         [music_img, midi_file, midi_stream_repr]
     )
 
-demo.launch()
+    demo.launch()
