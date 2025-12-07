@@ -95,7 +95,15 @@ def get_midi_note(sample_note, sample_duration):
         notes_in_chord = sample_note.split(".")
         chord_notes = []
         for current_note in notes_in_chord:
-            n = music21.note.Note(current_note)
+            # Support numeric MIDI tokens (e.g., '60') as well as note names ('C4')
+            try:
+                midi_val = int(current_note)
+            except Exception:
+                midi_val = None
+            if midi_val is not None:
+                n = music21.note.Note(midi=midi_val)
+            else:
+                n = music21.note.Note(current_note)
             n.duration = music21.duration.Duration(
                 float(Fraction(sample_duration))
             )
@@ -103,15 +111,16 @@ def get_midi_note(sample_note, sample_duration):
             chord_notes.append(n)
         new_note = music21.chord.Chord(chord_notes)
 
-    elif sample_note == "rest":
-        new_note = music21.note.Rest()
-        new_note.duration = music21.duration.Duration(
-            float(Fraction(sample_duration))
-        )
-        new_note.storedInstrument = music21.instrument.Violoncello()
-
     elif sample_note != "START":
-        new_note = music21.note.Note(sample_note)
+        # Support numeric MIDI tokens (e.g., '60') as well as note names ('C4')
+        try:
+            midi_val = int(sample_note)
+        except Exception:
+            midi_val = None
+        if midi_val is not None:
+            new_note = music21.note.Note(midi=midi_val)
+        else:
+            new_note = music21.note.Note(sample_note)
         new_note.duration = music21.duration.Duration(
             float(Fraction(sample_duration))
         )
