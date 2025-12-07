@@ -9,6 +9,7 @@ from torch import seed
 from transformer_utils import (
     load_parsed_files,
 )
+import random
 from app_utils import MusicGenerator, compile_model
 from music21 import environment
 from PIL import Image
@@ -114,22 +115,42 @@ def generate_music(seed_note, seed_duration, length, temperature):
 
     return musicimg, midipath, midi_stream_repr
 
-iface = gr.Interface(
-    fn=generate_music,
-    inputs=[
-        gr.Textbox(label="Seed Note", value="START G:major 4/4TS"),
-        gr.Textbox(label="Seed Duration", value="0.0 0.0 0.0"),
-        gr.Slider(label="Length (tokens)", minimum=10, maximum=500, step=10, value=100),
-        gr.Slider(label="Temperature", minimum=0.1, maximum=1.0, step=0.1, value=0.5),
-    ],
-    outputs=[
-        gr.Image(label="Generated Music Sheet"),
-        gr.File(label="Descargar MIDI"),
-        gr.Textbox(label="MIDI Stream Representation"),
-    ],
-    title="Music Transformer Generator",
-    description="Genera música utilizando un modelo Transformer entrenado.",
-    flagging_mode="never",
-)
+# Función para randomizar seed notes y durations
+def randomize_seeds():
+    # Selecciona escala y tempo aleatorios del vocabulario de notas
+    escala = random.choice([n for n in notes_vocab if 'major' in n or 'minor' in n]) if any('major' in n or 'minor' in n for n in notes_vocab) else 'G:major'
+    tempo = random.choice([n for n in notes_vocab if 'TS' in n]) if any('TS' in n for n in notes_vocab) else '4/4TS'
+    notas_puras = [n for n in notes_vocab if 'major' not in n and 'minor' not in n and 'TS' not in n and n != 'START']
+    notas_aleatorias = ' '.join(random.choices(notas_puras, k=3))
+    duraciones_aleatorias = ' '.join(random.choices(durations_vocab, k=3))
+    seed_notes = f"START {escala} {tempo} {notas_aleatorias}"
+    seed_durations = f"0.0 0.0 0.0 {duraciones_aleatorias}"
+    return seed_notes, seed_durations
 
-iface.launch()
+with gr.Blocks() as demo:
+    gr.Markdown("# Music Transformer Generator\nGenera música utilizando un modelo Transformer pre-entrenado.")
+    with gr.Row():
+        seed_note = gr.Textbox(label="Seed Note", value="START G:major 4/4TS")
+        seed_duration = gr.Textbox(label="Seed Duration", value="0.0 0.0 0.0")
+        random_btn = gr.Button("Randomize Seeds")
+    length = gr.Slider(label="Length (tokens)", minimum=10, maximum=500, step=10, value=100)
+    temperature = gr.Slider(label="Temperature", minimum=0.1, maximum=1.0, step=0.1, value=0.5)
+    with gr.Row():
+        music_img = gr.Image(label="Generated Music Sheet")
+        midi_file = gr.File(label="Descargar MIDI")
+        midi_stream_repr = gr.Textbox(label="MIDI Stream Representation")
+
+    generate_btn = gr.Button("Generar Música")
+
+    def update_seeds():
+        n, d = randomize_seeds()
+        return n, d
+
+    random_btn.click(update_seeds, [], [seed_note, seed_duration])
+    generate_btn.click(
+        generate_music,
+        [seed_note, seed_duration, length, temperature],
+        [music_img, midi_file, midi_stream_repr]
+    )
+
+demo.launch()
