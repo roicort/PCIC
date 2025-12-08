@@ -1,2 +1,2 @@
-Agradecemos a la clase de la Maestría en Ciencias e Ingenierías de la Computación de la UNAM por su apoyo y orientación en este trabajo.
-Agradecemos al Jet Propulsion Laboratory de la NASA por proporcionar el conjunto de datos del proyecto  $ITS\_LIVE$.
+Gracias a la clase de Modelos Generativos Profundos y a la Dra. Wendy Aguilar del PCIC-UNAM por la inspiración y guía en este proyecto.
+Gracias a Generative Deep Learning \cite{foster_generative_2023} por la guía en la implementación del modelo Transformer.

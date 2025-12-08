@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{1}
+\begin{thebibliography}{2}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -35,6 +35,15 @@
 \providecommand\bibinfo[2]{#2}
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Foster and Friston(2023)]%
+        {foster_generative_2023}
+\bibfield{author}{\bibinfo{person}{David Foster} {and} \bibinfo{person}{Karl~J. Friston}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Generative deep learning: teaching machines to paint, write, compose, and play} (\bibinfo{edition}{second edition} ed.)}.
+\newblock \bibinfo{publisher}{O'Reilly}, \bibinfo{address}{Beijing Boston Farnham Sebastopol Tokyo}.
+\newblock
+\showISBNx{978-1-0981-3418-1}
+
 
 \bibitem[Vaswani et~al\mbox{.}(2023)]%
         {vaswani_attention_2023}

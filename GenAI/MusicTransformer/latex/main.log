@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  6 DEC 2025 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 DEC 2025 22:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -733,6 +733,13 @@ LaTeX Warning: Unused global option(s):
 (/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
+
+
+LaTeX Warning: Label `fig:arquitectura-transformer' multiply defined.
+
+
+LaTeX Warning: Label `fig:500epochs' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -959,7 +966,6 @@ Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
- Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 212.
 LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 212.
@@ -1035,19 +1041,13 @@ LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
 (Font)              scaled to size 10.0pt on input line 212.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 10.0pt on input line 212.
-<sampleteaser.pdf, id=59, 2055.68pt x 511.9125pt>
-File: sampleteaser.pdf Graphic file (type pdf)
-<use sampleteaser.pdf>
-Package pdftex.def Info: sampleteaser.pdf  used on input line 212.
-(pdftex.def)             Requested size: 506.295pt x 126.0797pt.
+<svg-inkscape/2000epochs.pdf, id=59, 298.11375pt x 62.48344pt>
+File: svg-inkscape/2000epochs.pdf Graphic file (type pdf)
+<use svg-inkscape/2000epochs.pdf>
+Package pdftex.def Info: svg-inkscape/2000epochs.pdf  used on input line 212.
+(pdftex.def)             Requested size: 506.295pt x 106.12413pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 212.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 6.6pt on input line 212.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 5.5pt on input line 212.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 212.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 7.0pt on input line 212.
 LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 212.
@@ -1062,28 +1062,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 212.
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 212.
-
-
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 212.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 212.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 212.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 212.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 212.
-
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 212.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
@@ -1124,9 +1102,11 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 6.0pt on input line 212.
 
 
+
+
 [1.1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}
 
-{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc} </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/sampleteaser.pdf>]
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc} </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/2000epochs.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1134,7 +1114,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package natbib Warning: Citation `radford_improving_2018' on page 2 undefined on input line 262.
 
-<svg-inkscape/arch.png, id=90, 463.7325pt x 564.1075pt>
+<svg-inkscape/arch.png, id=84, 463.7325pt x 564.1075pt>
 File: svg-inkscape/arch.png Graphic file (type png)
 <use svg-inkscape/arch.png>
 Package pdftex.def Info: svg-inkscape/arch.png  used on input line 275.
@@ -1146,72 +1126,115 @@ Class acmart Warning: A possible image without description on input line 278.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 284.
+(Font)              scaled to size 9.0pt on input line 291.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 284.
+(Font)              scaled to size 7.0pt on input line 291.
 [2.2]
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 296.
 
 
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 336.
+<svg-inkscape/embeddings.pdf, id=91, 2726.83636pt x 766.865pt>
+File: svg-inkscape/embeddings.pdf Graphic file (type pdf)
+<use svg-inkscape/embeddings.pdf>
+Package pdftex.def Info: svg-inkscape/embeddings.pdf  used on input line 311.
+(pdftex.def)             Requested size: 241.14749pt x 67.80962pt.
+
+Class acmart Warning: A possible image without description on input line 314.
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 318.
+
+
+[3.3 </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/arch.png> </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/embeddings.pdf>]
+<svg-inkscape/archconcat.png, id=151, 689.57625pt x 690.58pt>
+File: svg-inkscape/archconcat.png Graphic file (type png)
+<use svg-inkscape/archconcat.png>
+Package pdftex.def Info: svg-inkscape/archconcat.png  used on input line 352.
+(pdftex.def)             Requested size: 217.03127pt x 217.34418pt.
+
+
+Class acmart Warning: A possible image without description on input line 355.
+
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 362.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 336.
+(Font)              scaled to size 9.0pt on input line 362.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (22.95969pt too wide) in paragraph at lines 336--337
+Overfull \hbox (22.95969pt too wide) in paragraph at lines 362--363
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) pa-ra no-tas (\T1/zi4/m/n/9 input_layer\T1/LinuxLibertineT-TLF/m/n/9 (-20) ) y otra pa-ra du-ra-cio-nes (\T1/zi4/m/n/9 input_layer_1\T1/LinuxLibertineT-TLF/m/n/9 (-20) ),
  []
 
 
 
-[3.3 </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/arch.png>]
-Underfull \vbox (badness 2096) has occurred while \output is active []
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 368.
 
 
-
-
-Overfull \hbox (47.00409pt too wide) in paragraph at lines 416--416
+[4.4{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc} </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/archconcat.png>]
+Overfull \hbox (47.00409pt too wide) in paragraph at lines 442--442
 []\T1/zi4/m/n/9 00 C0 00           ; [tiempo 0] Program Change $\LMS/ntxsy/m/n/9 !$ \T1/zi4/m/n/9 Instrumento 0 (Piano)[] 
  []
 
 
-Overfull \hbox (42.50409pt too wide) in paragraph at lines 416--416
+Overfull \hbox (42.50409pt too wide) in paragraph at lines 442--442
 []\T1/zi4/m/n/9 00 90 3C 64        ; [tiempo 0] Note ON $\LMS/ntxsy/m/n/9 !$ \T1/zi4/m/n/9 nota 3C (Do4), velocity 100[] 
  []
 
 
 
-[4.4{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}]
-Underfull \vbox (badness 1009) has occurred while \output is active []
+
+Underfull \vbox (badness 7451) has occurred while \output is active []
 
 
 
-
-Overfull \hbox (3.97829pt too wide) in paragraph at lines 518--519
+[5.5]
+Overfull \hbox (3.97829pt too wide) in paragraph at lines 547--548
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) tas: 7,552; du-ra-cio-nes: 3,072), \T1/zi4/m/n/9 TransformerBlock\T1/LinuxLibertineT-TLF/m/n/9 (-20) : 1,447,424,
  []
+
+<svg-inkscape/500epochs.pdf, id=167, 397.485pt x 126.4725pt>
+File: svg-inkscape/500epochs.pdf Graphic file (type pdf)
+<use svg-inkscape/500epochs.pdf>
+Package pdftex.def Info: svg-inkscape/500epochs.pdf  used on input line 560.
+(pdftex.def)             Requested size: 241.14749pt x 76.73126pt.
+
+Class acmart Warning: A possible image without description on input line 563.
+
+File: svg-inkscape/2000epochs.pdf Graphic file (type pdf)
+<use svg-inkscape/2000epochs.pdf>
+Package pdftex.def Info: svg-inkscape/2000epochs.pdf  used on input line 567.
+(pdftex.def)             Requested size: 241.14749pt x 50.5436pt.
+
+Class acmart Warning: A possible image without description on input line 570.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+<svg-inkscape/probabs.png, id=168, 482.0409pt x 351.59355pt>
+File: svg-inkscape/probabs.png Graphic file (type png)
+<use svg-inkscape/probabs.png>
+Package pdftex.def Info: svg-inkscape/probabs.png  used on input line 583.
+(pdftex.def)             Requested size: 241.14749pt x 175.88754pt.
+
+Class acmart Warning: A possible image without description on input line 586.
 
 Processing 'acks' comment.
 \openout3 = `comment.cut'.
 
  Comment 'acks' writing to comment.cut. Straight input of comment.cut. (/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/comment.cut)
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[5.5] (/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.bbl)
+[6.6 </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/500epochs.pdf> </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/probabs.png>] (/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.bbl)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1219,20 +1242,20 @@ Package natbib Warning: There were undefined citations.
 Class acmart Warning: Some images may lack descriptions.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 562.
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 616.
+
+
+Class acmart Warning: CCS concepts are mandatory for papers over two pages.
 
 
 
 
 
-
-Overfull \vbox (2.02402pt too high) has occurred while \output is active []
-
- (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [6.6] (/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.aux
+) [7.7] (/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 )
@@ -1240,22 +1263,26 @@ LaTeX Info: Redefining \% on input line 15.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 47A474768A610318B005B30FD692B08C;1622.
+(rerunfilecheck)             Checksum: D2AC62353103F31A4037DE8368C225BA;1623.
  ) 
 Here is how much of TeX's memory you used:
- 24913 strings out of 473190
- 421668 string characters out of 5715801
- 923627 words of memory out of 5000000
- 47078 multiletter control sequences out of 15000+600000
- 748373 words of font info for 398 fonts, out of 8000000 for 9000
+ 24934 strings out of 473190
+ 422469 string characters out of 5715801
+ 920866 words of memory out of 5000000
+ 47103 multiletter control sequences out of 15000+600000
+ 732375 words of font info for 392 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 94i,13n,131p,1057b,759s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on /Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.pdf (6 pages, 2516625 bytes).
+ 94i,12n,131p,1057b,748s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on /Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.pdf (7 pages, 8268591 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 103047 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 94875 words of extra memory for PDF output out of 106986 (max. 10000000)
 
