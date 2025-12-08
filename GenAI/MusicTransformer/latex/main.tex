@@ -535,12 +535,6 @@ La implementación y entrenamiento del modelo se realizó en TensorFlow/Keras co
       \item Si no existe, se busca el último checkpoint guardado y se carga, ajustando el número de épocas restantes basado en el nombre del checkpoint.
     \end{itemize}
 
-  \item \textbf{Generación y muestreo:}
-    \begin{itemize}
-      \item Tamaño de generación (\texttt{GENERATE\_LEN}): 50 tokens por ejemplo.
-      \item Muestreo: se aplica una temperatura manipulación de probabilidades, con filtrado por top-k (en la implementación interna del callback) y re-intento si el token elegido es el token de padding o \texttt{[UNK]}.
-    \end{itemize}
-
   \item \textbf{Parámetros del modelo:}
     \begin{itemize}
       \item Total de parámetros: 1,479,379 (5.64 MB), todos entrenables.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 DEC 2025 22:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  8 DEC 2025 10:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1197,44 +1197,41 @@ Underfull \vbox (badness 7451) has occurred while \output is active []
 
 
 [5.5]
-Overfull \hbox (3.97829pt too wide) in paragraph at lines 547--548
+Overfull \hbox (3.97829pt too wide) in paragraph at lines 541--542
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) tas: 7,552; du-ra-cio-nes: 3,072), \T1/zi4/m/n/9 TransformerBlock\T1/LinuxLibertineT-TLF/m/n/9 (-20) : 1,447,424,
  []
 
 <svg-inkscape/500epochs.pdf, id=167, 397.485pt x 126.4725pt>
 File: svg-inkscape/500epochs.pdf Graphic file (type pdf)
 <use svg-inkscape/500epochs.pdf>
-Package pdftex.def Info: svg-inkscape/500epochs.pdf  used on input line 560.
+Package pdftex.def Info: svg-inkscape/500epochs.pdf  used on input line 554.
 (pdftex.def)             Requested size: 241.14749pt x 76.73126pt.
 
-Class acmart Warning: A possible image without description on input line 563.
+Class acmart Warning: A possible image without description on input line 557.
 
 File: svg-inkscape/2000epochs.pdf Graphic file (type pdf)
 <use svg-inkscape/2000epochs.pdf>
-Package pdftex.def Info: svg-inkscape/2000epochs.pdf  used on input line 567.
+Package pdftex.def Info: svg-inkscape/2000epochs.pdf  used on input line 561.
 (pdftex.def)             Requested size: 241.14749pt x 50.5436pt.
 
-Class acmart Warning: A possible image without description on input line 570.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Class acmart Warning: A possible image without description on input line 564.
 
 
 
 <svg-inkscape/probabs.png, id=168, 482.0409pt x 351.59355pt>
 File: svg-inkscape/probabs.png Graphic file (type png)
 <use svg-inkscape/probabs.png>
-Package pdftex.def Info: svg-inkscape/probabs.png  used on input line 583.
+Package pdftex.def Info: svg-inkscape/probabs.png  used on input line 577.
 (pdftex.def)             Requested size: 241.14749pt x 175.88754pt.
 
-Class acmart Warning: A possible image without description on input line 586.
+Class acmart Warning: A possible image without description on input line 580.
 
 Processing 'acks' comment.
 \openout3 = `comment.cut'.
 
- Comment 'acks' writing to comment.cut. Straight input of comment.cut. (/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/comment.cut)
+ Comment 'acks' writing to comment.cut. Straight input of comment.cut. (/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/comment.cut) (/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.bbl
 
-[6.6 </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/500epochs.pdf> </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/probabs.png>] (/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.bbl)
+[6.6 </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/500epochs.pdf> </Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/probabs.png>])
 
 Package natbib Warning: There were undefined citations.
 
@@ -1242,7 +1239,7 @@ Package natbib Warning: There were undefined citations.
 Class acmart Warning: Some images may lack descriptions.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 616.
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 610.
 
 
 Class acmart Warning: CCS concepts are mandatory for papers over two pages.
@@ -1273,13 +1270,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  24934 strings out of 473190
  422469 string characters out of 5715801
- 920866 words of memory out of 5000000
+ 920121 words of memory out of 5000000
  47103 multiletter control sequences out of 15000+600000
  732375 words of font info for 392 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  94i,12n,131p,1057b,748s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on /Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.pdf (7 pages, 8268591 bytes).
+Output written on /Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.pdf (7 pages, 8268013 bytes).
 PDF statistics:
  249 PDF objects out of 1000 (max. 8388607)
  187 compressed objects within 2 object streams

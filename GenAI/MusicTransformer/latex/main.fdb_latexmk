@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex /Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main"] 1765169502.78434 "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.aux" "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.bbl" "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main" 1765169506.23074 0
+["bibtex /Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main"] 1765211420.26484 "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.aux" "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.bbl" "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main" 1765211424.74734 0
   "./ACM-Reference-Format.bst" 1748986292 90749 48abc1cbed6fafc6fc31528e3aa606ca ""
-  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.aux" 1765169505.8692 5748 d707ccaee6458aceee3c48b335f99ea5 "pdflatex"
+  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.aux" 1765211424.31463 5748 0b3ea24fe9a0be0e296e02ab58d25e01 "pdflatex"
   "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/sample-base.bib" 1765159040.58384 41788 07afbf5fe6f981651c938d152873e9c1 ""
   (generated)
   "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.bbl"
   "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.blg"
   (rewritten before read)
-["pdflatex"] 1765169502.89151 "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.tex" "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.pdf" "main" 1765169506.23089 0
+["pdflatex"] 1765211420.41143 "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.tex" "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.pdf" "main" 1765211424.74756 0
   "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/acmart.cls" 1748986292 119755 fb6b15d8a2b05651c52a19a84ffb7b05 ""
-  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/comment.cut" 1765169505.74381 262 8ecb88d41a574292fbec545f2a301a23 "pdflatex"
-  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.aux" 1765169505.8692 5748 d707ccaee6458aceee3c48b335f99ea5 "pdflatex"
-  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.bbl" 1765169502.88632 2812 2eacb36a62a20ef4b55118e42e1a9742 "bibtex /Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main"
-  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.out" 1765169505.87066 1623 d2ac62353103f31a4037de8368c225ba "pdflatex"
-  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.tex" 1765169498.47215 36551 2d3ae2d35022a19a2bc0d34b27a97477 ""
+  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/comment.cut" 1765211424.16618 262 8ecb88d41a574292fbec545f2a301a23 "pdflatex"
+  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.aux" 1765211424.31463 5748 0b3ea24fe9a0be0e296e02ab58d25e01 "pdflatex"
+  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.bbl" 1765211420.40317 2812 2eacb36a62a20ef4b55118e42e1a9742 "bibtex /Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main"
+  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.out" 1765211424.31652 1623 d2ac62353103f31a4037de8368c225ba "pdflatex"
+  "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/main.tex" 1765211413.0242 36164 5eb54a53c5ff09e7fced2ecd11dee1d7 ""
   "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/2000epochs.pdf" 1765156368.41935 16685 0b1db40eb2aa5ec3271794571e5bf75a ""
   "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/500epochs.pdf" 1765130390.44687 15567 7561c91d8f7ca89244e1d53bc402ba88 ""
   "/Users/roicort/GitHub/PCIC/GenAI/MusicTransformer/LaTex/svg-inkscape/arch.png" 1765066969.7813 1761451 3a07f16ce6a5827a0e32201fa99611a2 ""
